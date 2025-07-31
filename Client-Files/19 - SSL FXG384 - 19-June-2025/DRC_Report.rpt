@@ -1,0 +1,131 @@
+** Drc report for SSL FXG384.kicad_pcb **
+** Created on 2025-06-19T13:35:11+0300 **
+
+** Found 27 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(243.7000 mm, 79.8580 mm): Footprint SW2
+    @(261.7091 mm, 67.6779 mm): Footprint REF**
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error (excluded)
+    @(243.7000 mm, 79.8580 mm): Footprint SW2
+    @(261.7091 mm, 92.1279 mm): Footprint REF**
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(243.7000 mm, 79.8580 mm): Footprint SW2
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(360.8000 mm, 79.9420 mm): Footprint button1
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(399.8000 mm, 79.9420 mm): Footprint button2
+[lib_footprint_mismatch]: Footprint 'SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(142.0000 mm, 68.4000 mm): Footprint Voltage_reg1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(205.7000 mm, 79.8590 mm): Footprint SW3
+[lib_footprint_mismatch]: Footprint 'Jack_3.5mm_PJ320D_Horizontal' does not match copy in library 'Connector_Audio'.
+    Local override; warning
+    @(70.5300 mm, 80.6500 mm): Footprint AudioIn1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(319.7000 mm, 79.8580 mm): Footprint pot2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(281.7000 mm, 79.8580 mm): Footprint SW1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(477.4200 mm, 79.8580 mm): Footprint pot3
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(167.7000 mm, 79.8580 mm): Footprint pot1
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(438.8000 mm, 79.9420 mm): Footprint button3
+[lib_footprint_issues]: Footprint 'USRES1' not found in library 'RF'.
+    Local override; warning
+    @(409.0400 mm, 93.2500 mm): Footprint USR-ES1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Espressif'.
+    Local override; warning
+    @(359.4990 mm, 78.5280 mm): Footprint ESP32-S3-1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(353.8000 mm, 72.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(353.8000 mm, 72.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(353.8000 mm, 86.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(367.8000 mm, 86.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(392.8000 mm, 72.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(392.8000 mm, 72.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(392.8000 mm, 86.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(406.8000 mm, 86.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(431.8000 mm, 72.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(431.8000 mm, 72.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(431.8000 mm, 86.9420 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning (excluded)
+    @(445.8000 mm, 86.9420 mm): Segment on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 11 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(261.7091 mm, 67.6779 mm): Footprint REF**
+    @(501.8000 mm, 93.1000 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(501.8000 mm, 66.6500 mm): Footprint REF**
+    @(501.8000 mm, 93.1000 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(74.2000 mm, 66.6500 mm): Footprint REF**
+    @(501.8000 mm, 93.1000 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(261.7091 mm, 92.1279 mm): Footprint REF**
+    @(501.8000 mm, 93.1000 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(74.2000 mm, 93.1000 mm): Footprint REF**
+    @(501.8000 mm, 93.1000 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(501.8000 mm, 93.1000 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(261.7091 mm, 67.6779 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(501.8000 mm, 66.6500 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(74.2000 mm, 66.6500 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(261.7091 mm, 92.1279 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(74.2000 mm, 93.1000 mm): Footprint REF**
+
+** End of Report **

@@ -1,0 +1,245 @@
+** Drc report for SSL-EQ-Rack.kicad_pcb **
+** Created on 2025-06-06T10:49:57+0300 **
+
+** Found 66 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3000 mm)
+    Rule: board setup constraints edge; error (excluded)
+    @(66.6200 mm, 83.9500 mm): Rectangle on Edge.Cuts
+    @(266.1700 mm, 127.1500 mm): PTH pad 1
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3000 mm)
+    Rule: board setup constraints edge; error (excluded)
+    @(66.6200 mm, 83.9500 mm): Rectangle on Edge.Cuts
+    @(268.6700 mm, 127.1500 mm): PTH pad 2
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3000 mm)
+    Rule: board setup constraints edge; error (excluded)
+    @(66.6200 mm, 83.9500 mm): Rectangle on Edge.Cuts
+    @(271.1700 mm, 127.1500 mm): PTH pad 3
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(78.3000 mm, 93.6500 mm): Footprint pot1
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(323.6100 mm, 113.1500 mm): Footprint LED18
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(310.3000 mm, 93.6500 mm): Footprint pot14
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(430.4400 mm, 105.6500 mm): Footprint LED19
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(281.3900 mm, 119.1500 mm): Footprint LED2
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(318.1100 mm, 113.1500 mm): Footprint LED17
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(159.6700 mm, 118.6500 mm): Footprint pot5
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(103.6600 mm, 118.1500 mm): Footprint toggle_sw3
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(408.4400 mm, 105.6500 mm): Footprint LED5
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(402.4600 mm, 119.6500 mm): Footprint toggle_sw14
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(281.3900 mm, 93.6500 mm): Footprint LED13
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(253.0100 mm, 118.6500 mm): Footprint toggle_sw8
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(447.3000 mm, 119.6500 mm): Footprint toggle_sw18
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(312.6100 mm, 123.1500 mm): Footprint LED10
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(312.6100 mm, 113.1500 mm): Footprint LED16
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(223.6700 mm, 118.6500 mm): Footprint pot10
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(421.4600 mm, 119.6500 mm): Footprint toggle_sw16
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(411.9600 mm, 119.6500 mm): Footprint toggle_sw15
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(168.3000 mm, 93.6500 mm): Footprint pot6
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(148.3000 mm, 93.6500 mm): Footprint pot4
+[lib_footprint_mismatch]: Footprint 'SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(496.1200 mm, 106.7500 mm): Footprint Voltage_reg1
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(293.6600 mm, 93.6500 mm): Footprint toggle_sw9
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(91.3900 mm, 118.1500 mm): Footprint LED1
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(333.6300 mm, 118.1500 mm): Footprint toggle_sw12
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(379.3000 mm, 93.6500 mm): Footprint pot19
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(402.3000 mm, 93.6500 mm): Footprint pot20
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(447.3000 mm, 93.6500 mm): Footprint pot22
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(318.1100 mm, 123.1500 mm): Footprint LED3
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(103.6700 mm, 106.1500 mm): Footprint toggle_sw2
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(201.6700 mm, 118.6500 mm): Footprint pot8
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(281.3900 mm, 106.1500 mm): Footprint LED7
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(307.1100 mm, 123.1500 mm): Footprint LED9
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(430.9600 mm, 119.6500 mm): Footprint toggle_sw17
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(356.3000 mm, 93.6500 mm): Footprint pot17
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(301.6100 mm, 123.1500 mm): Footprint LED8
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(346.3000 mm, 118.6500 mm): Footprint pot16
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(307.1100 mm, 113.1500 mm): Footprint LED15
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(91.3900 mm, 106.1500 mm): Footprint LED6
+[lib_footprint_mismatch]: Footprint 'TSSOP-24_4.4x7.8mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(225.6200 mm, 94.3500 mm): Footprint MUX1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(238.3000 mm, 93.6500 mm): Footprint pot11
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(323.6100 mm, 123.1500 mm): Footprint LED4
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(268.6700 mm, 119.6500 mm): Footprint pot13
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(293.4100 mm, 119.1500 mm): Footprint toggle_sw11
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(81.5600 mm, 118.1500 mm): Footprint LED11
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(173.7900 mm, 118.6500 mm): Footprint toggle_sw5
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(301.6100 mm, 113.1500 mm): Footprint LED14
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(103.6700 mm, 94.1500 mm): Footprint toggle_sw1
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(125.6700 mm, 118.6500 mm): Footprint toggle_sw4
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(137.6700 mm, 118.6500 mm): Footprint pot3
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(126.3000 mm, 93.6500 mm): Footprint pot2
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(380.9600 mm, 119.6500 mm): Footprint toggle_sw13
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(258.3000 mm, 93.6500 mm): Footprint pot12
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(238.8900 mm, 118.6500 mm): Footprint toggle_sw7
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(91.3900 mm, 94.1500 mm): Footprint LED12
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(213.3000 mm, 93.6500 mm): Footprint pot9
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(293.4100 mm, 106.1500 mm): Footprint toggle_sw10
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(425.3000 mm, 93.6500 mm): Footprint pot21
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(333.3000 mm, 93.6500 mm): Footprint pot15
+[lib_footprint_issues]: Footprint 'SW_TL2285EE' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(183.2900 mm, 118.6500 mm): Footprint toggle_sw6
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(193.3000 mm, 93.6500 mm): Footprint pot7
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(366.3000 mm, 118.6500 mm): Footprint pot18
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Espressif'.
+    Local override; warning
+    @(489.7200 mm, 106.1500 mm): Footprint ESP32-S3-1
+[lib_footprint_issues]: Footprint 'USRES1' not found in library 'RF'.
+    Local override; warning
+    @(74.4200 mm, 105.0900 mm): Footprint USR-ES1
+
+** Found 0 unconnected pads **
+
+** Found 10 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(248.8610 mm, 106.6500 mm): Footprint REF**
+    @(114.8240 mm, 88.3740 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(473.4240 mm, 88.3750 mm): Footprint REF**
+    @(114.8240 mm, 88.3740 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(473.4240 mm, 123.3750 mm): Footprint REF**
+    @(114.8240 mm, 88.3740 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(114.8240 mm, 123.3750 mm): Footprint REF**
+    @(114.8240 mm, 88.3740 mm): Footprint REF**
+[net_conflict]: Pad net (unconnected-(74HC595-3-QH&apos;-Pad9)) doesn't match net given by schematic (unconnected-(74HC595-3-QH'-Pad9)).
+    Local override; warning
+    @(319.6450 mm, 89.9050 mm): Pad 9 on F.Cu
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(114.8240 mm, 88.3740 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(248.8610 mm, 106.6500 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(473.4240 mm, 88.3750 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(473.4240 mm, 123.3750 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(114.8240 mm, 123.3750 mm): Footprint REF**
+
+** End of Report **

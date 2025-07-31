@@ -1,0 +1,6582 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "03f3958b-24d1-44a4-a7fc-243676293e1f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74HC595"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC595"
+				(at -7.62 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HCMOS SR 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC595_1_0"
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{SRCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC595_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Traktorino-rescue:LED-RESCUE-DJ_0"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED-RESCUE-DJ_0"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED-3MM LED-5MM LED-10MM LED-0603 LED-0805 LED-1206 LEDV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED-RESCUE-DJ_0_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.635) (xy -3.175 -1.651) (xy -3.048 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 -1.016) (xy -2.794 -2.032) (xy -2.667 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED-RESCUE-DJ_0_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 70.104 168.656)
+		(uuid "f07b8e77-c668-4c6d-ae82-a62db7d8a277")
+	)
+	(wire
+		(pts
+			(xy 45.974 145.796) (xy 49.784 145.796)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0248349e-90ac-413f-93df-e284a5960bf5")
+	)
+	(wire
+		(pts
+			(xy 220.726 83.058) (xy 223.266 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07012959-5321-4017-b2d2-30d3b657e5c5")
+	)
+	(wire
+		(pts
+			(xy 190.5 103.886) (xy 193.802 103.886)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0886280e-2d6b-4541-93a1-99e8fe1d6080")
+	)
+	(wire
+		(pts
+			(xy 177.292 75.438) (xy 179.832 75.438)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bee7d16-d8aa-4f3d-bbd6-feb982f2419a")
+	)
+	(wire
+		(pts
+			(xy 144.526 132.842) (xy 147.828 132.842)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdbd71b-602c-4754-a710-9e449989726e")
+	)
+	(wire
+		(pts
+			(xy 70.104 120.396) (xy 77.216 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f22c698-c514-47e9-995b-637d2a8927dd")
+	)
+	(wire
+		(pts
+			(xy 220.98 65.024) (xy 223.52 65.024)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a4902b-a413-427d-9c74-5e06a4eeecb5")
+	)
+	(wire
+		(pts
+			(xy 233.934 74.422) (xy 237.236 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28939673-9b3c-4e76-bad0-048d9026e02e")
+	)
+	(wire
+		(pts
+			(xy 190.754 113.284) (xy 194.056 113.284)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a061f59-5d1f-4b05-bfa6-03e8a927dcfe")
+	)
+	(wire
+		(pts
+			(xy 143.764 85.598) (xy 147.066 85.598)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b237643-b942-4cc9-91b5-c3b09ccc44db")
+	)
+	(wire
+		(pts
+			(xy 144.272 104.902) (xy 147.574 104.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e355b7e-c99d-491f-a68c-492aea254784")
+	)
+	(wire
+		(pts
+			(xy 177.546 93.98) (xy 180.086 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3478c726-4d8d-48e3-9501-4a1cff314c78")
+	)
+	(wire
+		(pts
+			(xy 131.064 76.454) (xy 133.604 76.454)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2b5988-b0ce-477f-a319-793636d9369f")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.056) (xy 146.812 67.056)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4216a163-fa17-45ae-8434-9c30043a1578")
+	)
+	(wire
+		(pts
+			(xy 221.234 74.422) (xy 223.774 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b2a5bd-86b6-406f-9514-1111bf07b0a3")
+	)
+	(wire
+		(pts
+			(xy 190.246 93.98) (xy 193.548 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bc4038-a454-4aa1-927e-c5e891803e09")
+	)
+	(wire
+		(pts
+			(xy 131.826 114.3) (xy 134.366 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6f3392-51fc-4c38-b1d5-96c305a5ebcc")
+	)
+	(wire
+		(pts
+			(xy 177.8 103.886) (xy 180.34 103.886)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abc75e3-60a0-45da-8dd8-0f6e579c800d")
+	)
+	(wire
+		(pts
+			(xy 130.81 67.056) (xy 133.35 67.056)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae56898-6af9-4bbb-b4dd-0bd11bf5bb6d")
+	)
+	(wire
+		(pts
+			(xy 74.676 83.82) (xy 45.974 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5302a5-683f-41f3-83ef-b2d86f925746")
+	)
+	(wire
+		(pts
+			(xy 143.764 76.454) (xy 147.066 76.454)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647b476f-18ea-44b9-9d4d-144330133204")
+	)
+	(wire
+		(pts
+			(xy 45.974 97.536) (xy 49.784 97.536)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71080f37-069b-4120-8839-1fdcb62c1706")
+	)
+	(wire
+		(pts
+			(xy 177.292 84.582) (xy 179.832 84.582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74109be3-6309-4b39-b7ef-17962b32ed55")
+	)
+	(wire
+		(pts
+			(xy 190.754 131.826) (xy 194.056 131.826)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8b51bc-67c2-450e-a0e8-a30c190c30f6")
+	)
+	(wire
+		(pts
+			(xy 131.318 94.996) (xy 133.858 94.996)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839bf10b-f287-48ca-b4f2-8932d836e050")
+	)
+	(wire
+		(pts
+			(xy 178.054 113.284) (xy 180.594 113.284)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8859150c-7e0e-4dd7-ac02-ee33cfbb1d0f")
+	)
+	(wire
+		(pts
+			(xy 178.054 131.826) (xy 180.594 131.826)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf097b0-492f-443f-b0cf-1849a03a5490")
+	)
+	(wire
+		(pts
+			(xy 74.676 70.104) (xy 74.676 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b01a66-e8b4-4c88-add3-0e84ead55f99")
+	)
+	(wire
+		(pts
+			(xy 131.826 132.842) (xy 134.366 132.842)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921b87ce-c182-4dc1-9f51-bd9ad5c792e5")
+	)
+	(wire
+		(pts
+			(xy 45.974 133.096) (xy 45.974 145.796)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7139b5b-9401-41d5-96e7-2f7359722f4b")
+	)
+	(wire
+		(pts
+			(xy 144.272 123.444) (xy 147.574 123.444)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac195f6f-19d3-4137-bdc4-28f8d97c5fb2")
+	)
+	(wire
+		(pts
+			(xy 189.738 66.04) (xy 193.04 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf3421d-9bc8-4b3a-a6ed-a6f380169463")
+	)
+	(wire
+		(pts
+			(xy 144.018 94.996) (xy 147.32 94.996)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58f476e-7b3b-44b7-810d-b6d49edb30a2")
+	)
+	(wire
+		(pts
+			(xy 233.68 65.024) (xy 236.982 65.024)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9134aee-f9b5-4f55-97ef-5ebccf3424fc")
+	)
+	(wire
+		(pts
+			(xy 233.426 83.058) (xy 236.728 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08b2b1c-acdf-45a2-9af0-27d2027780eb")
+	)
+	(wire
+		(pts
+			(xy 69.85 70.104) (xy 74.676 70.104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3993213-8951-45a3-b52c-2a5a952c2ead")
+	)
+	(wire
+		(pts
+			(xy 177.8 122.428) (xy 180.34 122.428)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87fd07e-b85a-4345-8e70-3d79a4a6cb4c")
+	)
+	(wire
+		(pts
+			(xy 177.038 66.04) (xy 179.578 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9370863-4b49-4608-af2d-30a912d95ab2")
+	)
+	(wire
+		(pts
+			(xy 131.572 104.902) (xy 134.112 104.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbd0043-2c26-4155-82bd-f91bd7779c00")
+	)
+	(wire
+		(pts
+			(xy 131.064 85.598) (xy 133.604 85.598)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd103d3-7c65-4f5b-ab86-c39e309de3dc")
+	)
+	(wire
+		(pts
+			(xy 77.216 133.096) (xy 45.974 133.096)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d306ae90-306d-4f90-866c-4ea1c05c9d80")
+	)
+	(wire
+		(pts
+			(xy 131.572 123.444) (xy 134.112 123.444)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d2f955-d1e4-485d-bbb9-4bd224f5e69a")
+	)
+	(wire
+		(pts
+			(xy 45.974 83.82) (xy 45.974 97.536)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e806b85f-0bce-4917-b050-d7bc8cfc9f3e")
+	)
+	(wire
+		(pts
+			(xy 189.992 84.582) (xy 193.294 84.582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80eb493-c74f-4992-839f-c9bdec40ef77")
+	)
+	(wire
+		(pts
+			(xy 144.526 114.3) (xy 147.828 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4fd078-8581-43ab-912d-31a09f2047cf")
+	)
+	(wire
+		(pts
+			(xy 190.5 122.428) (xy 193.802 122.428)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f2121d-9101-431e-96bc-17985a22ae4c")
+	)
+	(wire
+		(pts
+			(xy 77.216 120.396) (xy 77.216 133.096)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9906b08-ba20-4ec4-9561-22b7a3465102")
+	)
+	(wire
+		(pts
+			(xy 189.992 75.438) (xy 193.294 75.438)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c09db3-a0a2-4a5a-8186-04e53cb59530")
+	)
+	(label "LED_A_QH"
+		(at 69.85 65.024 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "068faa88-acec-4ae5-aca2-85f8fb736905")
+	)
+	(label "LED_A_QF"
+		(at 69.85 59.944 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cce8fef-1623-4948-b484-c33c40024d7f")
+	)
+	(label "LED_A_QC"
+		(at 69.85 52.324 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "1107f2c1-fa9c-43cd-a639-0214ee3f85a9")
+	)
+	(label "LED_A_QE"
+		(at 152.654 104.902 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b75e508-7239-4429-8a66-500129280407")
+	)
+	(label "LED_A_QG"
+		(at 69.85 62.484 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f56bf75-f9ce-4ea5-9bc9-dd18be175a9d")
+	)
+	(label "LED_A_QG"
+		(at 152.654 123.444 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "21d007e4-718b-453a-a155-e65586da22c4")
+	)
+	(label "LED_B_QG"
+		(at 70.104 112.776 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "24ff8794-b24f-4fdc-94a3-3e9237884c48")
+	)
+	(label "LED_A_QE"
+		(at 69.85 57.404 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "269f50ed-097a-40ed-83a3-3309912db4ab")
+	)
+	(label "LED_B_QC"
+		(at 70.104 102.616 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cc156c9-020e-406e-9da8-2832eb2e4ac7")
+	)
+	(label "LED_B_QE"
+		(at 198.882 103.886 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ea2de7d-aa99-4620-bd0b-72e1d3b3bcc1")
+	)
+	(label "LED_A_QB"
+		(at 69.85 49.784 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "3372c0df-8d59-4514-88b4-f6fa01826cce")
+	)
+	(label "LED_A_QA"
+		(at 151.892 67.056 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ed687d5-7fc8-4be2-a67e-9046b27ad32f")
+	)
+	(label "LED_C_QA"
+		(at 70.104 145.796 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "42f922b4-b3d4-456d-a750-8845e7e33335")
+	)
+	(label "LED_B_QF"
+		(at 199.136 113.284 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "556a6a41-65f4-40e9-91c6-3bc53808dc80")
+	)
+	(label "LED_C_QA"
+		(at 242.062 65.024 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "5aac4026-92bf-4709-bded-05b1bf3e5cd2")
+	)
+	(label "LED_A_QB"
+		(at 152.146 76.454 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "61393028-c17f-415e-8862-154786a54a56")
+	)
+	(label "LED_A_QH"
+		(at 152.908 132.842 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "6919ecee-def2-432b-bbb4-c02ab3a4bbc9")
+	)
+	(label "LED_B_QG"
+		(at 198.882 122.428 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "70cf66a8-0d5f-48d6-ad01-d26d48f0c78d")
+	)
+	(label "LED_B_QA"
+		(at 70.104 97.536 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a5c8c6d-3c8d-4b32-9192-22864fddb532")
+	)
+	(label "LED_B_QB"
+		(at 70.104 100.076 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c524b86-ef85-4e38-906e-49011ccca192")
+	)
+	(label "LED_C_QB"
+		(at 242.316 74.422 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b6107b5-cac8-46e3-a985-e71939cadb61")
+	)
+	(label "LED_B_QH"
+		(at 199.136 131.826 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "903cf633-52d3-4f70-b3c5-7eb5bd3d1e56")
+	)
+	(label "LED_B_QB"
+		(at 198.374 75.438 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "91614eff-4eea-4343-8567-b7111eaacf8e")
+	)
+	(label "LED_B_QH"
+		(at 70.104 115.316 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "9308f492-8d04-447f-bddb-447bc29eda68")
+	)
+	(label "LED_C_QC"
+		(at 241.808 83.058 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "9505a65f-34d9-4b88-b44f-e8f424fb5d37")
+	)
+	(label "LED_C_QC"
+		(at 70.104 150.876 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "9740cdcb-2342-4c51-9dfb-ea360f1bd236")
+	)
+	(label "LED_B_QA"
+		(at 198.12 66.04 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1d2c09c-b7e0-43f9-b8ca-2cd52927e950")
+	)
+	(label "LED_B_QF"
+		(at 70.104 110.236 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7e4756b-7f75-47b5-8736-588e051e113b")
+	)
+	(label "LED_B_QD"
+		(at 70.104 105.156 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3108461-6c48-4d84-9645-11286a29dad3")
+	)
+	(label "LED_A_QD"
+		(at 152.4 94.996 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "db1e74de-ad93-4499-9b74-47c1e8f3e74f")
+	)
+	(label "LED_A_QF"
+		(at 152.908 114.3 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "df1dcf35-502e-40c6-863a-b67159ec6553")
+	)
+	(label "LED_A_QC"
+		(at 152.146 85.598 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "e021b1c2-3ea6-46d2-88fb-9cc5465020dc")
+	)
+	(label "LED_B_QE"
+		(at 70.104 107.696 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1746022-790a-49e1-94be-047d871c94f4")
+	)
+	(label "LED_B_QD"
+		(at 198.628 93.98 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecd0135f-5df9-473a-af0a-1bbc6a405786")
+	)
+	(label "LED_A_QD"
+		(at 69.85 54.864 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "f07b4244-91a8-482b-b9f0-f5b2309124dd")
+	)
+	(label "LED_B_QC"
+		(at 198.374 84.582 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "f130d1e6-6c6c-48f2-b9df-3f4ae9377296")
+	)
+	(label "LED_A_QA"
+		(at 69.85 47.244 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2a34df2-f19d-42b0-bdac-a9ce40d0bfa7")
+	)
+	(label "LED_C_QB"
+		(at 70.104 148.336 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd19a450-b4f3-40c7-9c35-2419ee13d9d2")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 177.292 84.582 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cfab002-9d95-4b52-837c-cb54db9d7300")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.4363 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 177.8 122.428 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "168fa0d0-714e-4b0f-869b-e77f54a42792")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.9443 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 49.53 54.864 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18e28205-c2d2-4775-964d-55eac19857bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.4324 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 59.69 42.164 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d0a1cc9-06e5-4d95-abde-fba304caf6c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 35.0664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 49.784 105.156 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20d6732e-ce83-47b3-90de-9f19f25cb747")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.6864 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 59.944 173.736 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "234f409a-8f1a-4b6e-9eda-2abb548e3bfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.944 179.9375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 178.054 113.284 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "346fbdc9-46f3-485d-8314-70501e457641")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.1983 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 130.81 67.056 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "453696e2-1ed8-4dba-b6c2-6e0945edb77b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.9543 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCLK_latch"
+		(shape input)
+		(at 49.784 158.496 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "459d38fd-af46-45a4-9dc0-55d2770d253c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.2156 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 177.546 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c4fbac7-1bf0-41c4-8e8e-583f049cbcfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.6903 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 49.784 150.876 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e315f5a-4625-4587-9c2d-26be6757b7af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.0212 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 49.784 112.776 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6112fb62-184b-46da-9001-19fa671d3b8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.5825 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 178.054 131.826 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "719030e0-6760-4177-a216-aa4bff1000b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.1983 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 59.944 125.476 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a2dd7f9-982f-40b0-a6f2-06ffaa27ffd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.944 131.6775 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 49.53 52.324 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f2a722c-b62c-406d-9259-bcdf6bac7c4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.7672 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 131.826 132.842 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8108fad1-710f-44a9-963c-f2253224ad3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.9703 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 221.234 74.422 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94814b64-caef-4ecf-97d9-a3a2638f9dff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.3783 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 131.572 123.444 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b28a156-e790-48b2-9cd4-148680e104eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.7163 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 131.826 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c01dc17-7749-4674-b151-2088318f56fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.9703 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 177.292 75.438 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a00faab8-67f4-4b79-b8c3-220a16ef3541")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.4363 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 131.064 76.454 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0de45b9-c07d-406c-adfb-9a4294089ab0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.2083 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 131.318 94.996 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a386a31f-e3a4-441d-be5c-39e829053e8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.4623 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 49.784 161.036 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a57ce74c-13fa-4f88-bea1-70566ae850c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.5825 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 59.944 92.456 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9529ffd-8f71-4899-8039-7ac44e5bf384")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.944 85.3584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCLK_latch"
+		(shape input)
+		(at 49.784 110.236 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aee713ba-372b-432f-be38-ac461da7d430")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.2156 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 59.69 75.184 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "baa955f5-8e02-473b-bd75-1f717033a882")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 81.3855 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SER"
+		(shape input)
+		(at 49.53 47.244 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be26743c-8b14-4a0d-a7a9-5eeecfd1288f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.5705 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 49.784 102.616 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c196a7b7-71f8-4b45-96ba-2a43fa2c5ae5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.0212 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 131.064 85.598 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb6c3cc8-4a53-44bb-91f6-920acd81cdb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.2083 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 59.944 140.716 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc4100e2-d39a-4c55-b735-8a7ae141e399")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.944 133.6184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 177.8 103.886 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2466bb6-8db7-45ec-887f-e590815cc9f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.9443 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 220.726 83.058 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2dbbd26-f217-486c-b6a5-b4ba05f900f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.8703 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 131.572 104.902 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5000886-7da5-4068-81a8-ccdae6839f2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.7163 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 177.038 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e40c3978-4ae8-44ba-ad6e-762da40a07b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.1823 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 49.53 62.484 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7fa5a92-31d4-4c79-bb68-0ed49fc84f98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.3285 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 220.98 65.024 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea9d5a54-2a6c-4571-9b7e-299c014acd0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.1243 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 49.784 153.416 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7204c93-b9dc-49d3-b322-c62940779fb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.6864 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCLK_latch"
+		(shape input)
+		(at 49.53 59.944 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff53a51a-37a3-4219-8664-ab5f3508a60b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.9616 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 138.684 85.598 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "077a3e25-12c2-4c99-8be5-438c464888c9")
+		(property "Reference" "LED3"
+			(at 138.684 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 138.684 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 138.684 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.684 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.684 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 138.684 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 138.684 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 138.684 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac55af3c-c6b5-4323-b6e4-8dc0314bcca6")
+		)
+		(pin "2"
+			(uuid "368522b7-d88f-433d-9945-88c2efe2b849")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 150.368 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19097f70-0c1e-4ec7-9648-2e43fbdc2314")
+		(property "Reference" "R7"
+			(at 150.368 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 150.368 111.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 150.368 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.368 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 150.368 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 150.368 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 150.368 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 150.368 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f011c9d-ebf2-48fe-9bc4-cd85f7bb3e4b")
+		)
+		(pin "1"
+			(uuid "12b5a870-73b5-40a0-ae7f-bd59b430e0be")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 228.6 65.024 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1994c11e-334c-451d-82f4-2dfb4ca0c9dd")
+		(property "Reference" "LED18"
+			(at 228.6 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 228.6 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 228.6 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 228.6 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 228.6 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 228.6 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d7f1f09-c0f5-4b8b-9da6-faf0a529ff23")
+		)
+		(pin "2"
+			(uuid "15fffaac-47c2-4678-b460-9d471618ad14")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 228.346 83.058 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cad3960-b439-4e83-b977-1b1031f6d6af")
+		(property "Reference" "LED17"
+			(at 228.346 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 228.346 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 228.346 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.346 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.346 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 228.346 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 228.346 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 228.346 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "666d90b9-f97e-4cde-904a-b0064571b861")
+		)
+		(pin "2"
+			(uuid "ccd087fb-df7a-45ad-9963-06d6d75f66d6")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 138.938 94.996 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d4abbab-157a-41da-af83-dbcdb6de325b")
+		(property "Reference" "LED4"
+			(at 138.938 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 138.938 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 138.938 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.938 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.938 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 138.938 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 138.938 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 138.938 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dfc183c-f557-4f7f-93e4-1a4bc709e4c5")
+		)
+		(pin "2"
+			(uuid "27c4883a-3a6c-4485-a78e-a841f42bb875")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 150.114 123.444 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2139b9ed-8c1d-42ee-b429-5608904adf39")
+		(property "Reference" "R6"
+			(at 150.114 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 150.114 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 150.114 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.114 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 150.114 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 150.114 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 150.114 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 150.114 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23ceed25-c3b9-4e10-9151-fd14a2d5429e")
+		)
+		(pin "1"
+			(uuid "ef3f6b4b-fe69-4f12-8752-22149f6ce6a4")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 195.58 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2522f6a8-8586-4754-a4c6-af1ae511fe91")
+		(property "Reference" "R9"
+			(at 195.58 60.706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 195.58 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e1fb571-2207-4720-8ca3-287acaad74c4")
+		)
+		(pin "1"
+			(uuid "cd3f5ed0-22bc-4041-8e31-c214bfa15d07")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 150.114 104.902 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27694c7d-254e-43ea-88dc-6bcfb2bfcdef")
+		(property "Reference" "R5"
+			(at 150.114 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 150.114 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 150.114 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.114 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 150.114 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 150.114 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 150.114 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 150.114 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79e0f1ae-004a-49c8-857b-a4f71e5c0cd5")
+		)
+		(pin "1"
+			(uuid "642e7810-80c2-49eb-ba64-04950a8f1121")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 149.86 94.996 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d8b67af-78ff-472c-b449-34c0d44d29a7")
+		(property "Reference" "R4"
+			(at 149.86 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 149.86 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.86 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 149.86 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 149.86 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44abef3f-5aeb-4ee1-beab-4641f3b1e881")
+		)
+		(pin "1"
+			(uuid "f81dbcec-9eba-458a-8beb-759a49f48428")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 185.166 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dae7374-bbc5-4408-af61-c8a199eb5d30")
+		(property "Reference" "LED12"
+			(at 185.166 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 185.166 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 185.166 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.166 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.166 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 185.166 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 185.166 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.166 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c522678-0928-4339-a2d7-0e87d7939a31")
+		)
+		(pin "2"
+			(uuid "cb60e39c-9aed-494a-a15d-0060d3ed93d3")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 228.854 74.422 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3336c7a9-814b-4618-ad8e-2c776e54ce75")
+		(property "Reference" "LED19"
+			(at 228.854 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 228.854 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 228.854 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.854 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.854 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 228.854 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 228.854 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 228.854 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e36f7592-d017-4892-8b2f-d8b5f6afe5a0")
+		)
+		(pin "2"
+			(uuid "6ae4c4a4-1816-4ede-8392-d25dafcd008b")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 149.352 67.056 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34da0434-8422-4618-9a43-c31438e3c6b4")
+		(property "Reference" "R1"
+			(at 149.352 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 149.352 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.352 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.352 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 149.352 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 149.352 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.352 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.352 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b891e25f-a630-49ef-ae7e-6855f50e0a17")
+		)
+		(pin "1"
+			(uuid "b83af18c-0dab-4055-9eb6-1d293d0ec86b")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 196.088 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388d63d1-812b-4ec6-85b2-aa3bfc137e97")
+		(property "Reference" "R12"
+			(at 196.088 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 196.088 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 196.088 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.088 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 196.088 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 196.088 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 196.088 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 196.088 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad6127cc-7816-43ff-b3d9-70da6a018715")
+		)
+		(pin "1"
+			(uuid "8bf17e6a-3ee3-44f2-8421-d4f42d8bb575")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 196.596 131.826 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ed957c1-a0e5-4593-b5cd-acf7b68cb0b2")
+		(property "Reference" "R16"
+			(at 196.596 126.492 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 196.596 129.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 196.596 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.596 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 196.596 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 196.596 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 196.596 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 196.596 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fae8cf5-8773-44db-89ae-7f019f58a84d")
+		)
+		(pin "1"
+			(uuid "f9227710-1f6b-4e22-a71e-2a7247d822a8")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 184.912 84.582 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "536fe3ad-1dc0-4727-a2e5-722a049b87da")
+		(property "Reference" "LED11"
+			(at 184.912 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 184.912 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 184.912 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.912 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.912 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 184.912 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 184.912 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 184.912 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9123b0b4-3c1c-481d-b923-65dac14aff65")
+		)
+		(pin "2"
+			(uuid "e9fc4bca-c24c-41c7-bf46-7c3946054fcf")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 184.912 75.438 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "541718d5-6647-4461-b4f8-8fd94458a2cf")
+		(property "Reference" "LED10"
+			(at 184.912 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 184.912 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 184.912 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.912 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.912 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 184.912 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 184.912 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 184.912 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae9b848b-8733-437d-811c-b74f5fa5a377")
+		)
+		(pin "2"
+			(uuid "feb8f35c-f69b-4455-954b-296dee001260")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 196.596 113.284 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56cb0d7f-568b-4002-825a-a8e3ea062fa6")
+		(property "Reference" "R15"
+			(at 196.596 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 196.596 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 196.596 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.596 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 196.596 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 196.596 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 196.596 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 196.596 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec2a4409-80b5-41a3-a78a-709a49cb0156")
+		)
+		(pin "1"
+			(uuid "5e3f2661-586c-4fd9-b307-c92c03878294")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 185.674 113.284 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ffe658b-2236-448d-b1b4-a327b8550443")
+		(property "Reference" "LED15"
+			(at 185.674 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 185.674 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 185.674 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.674 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.674 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 185.674 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 185.674 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.674 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f721d312-7867-41b5-942d-b6ebc8af38d4")
+		)
+		(pin "2"
+			(uuid "833d340b-d3ed-46c9-9d45-1b7f61930bba")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 184.658 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f59042d-54ab-4a50-80bf-1c3ac07ee947")
+		(property "Reference" "LED9"
+			(at 184.658 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 184.658 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 184.658 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.658 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.658 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 184.658 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 184.658 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 184.658 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6284487-7e7d-489c-9534-00a5feee5774")
+		)
+		(pin "2"
+			(uuid "11cc105d-0aa7-44f1-823b-2361c322c20c")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 196.342 103.886 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7415059f-d297-4362-83d4-c6c9583864af")
+		(property "Reference" "R13"
+			(at 196.088 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 196.342 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 196.342 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.342 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 196.342 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 196.342 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 196.342 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 196.342 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f375923f-17a2-418b-a21b-4b1989612828")
+		)
+		(pin "1"
+			(uuid "43b15e23-e454-4f86-ad0f-6544ef3a6b94")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 195.834 75.438 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80397e12-0e1e-4e71-b5e0-8602efab37e8")
+		(property "Reference" "R10"
+			(at 195.834 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 195.834 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 195.834 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.834 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 195.834 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 195.834 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 195.834 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 195.834 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4565efb-9822-477e-9499-ddf84b31b8d2")
+		)
+		(pin "1"
+			(uuid "93a58663-4fe7-4b20-ba3b-a6ca82327ed8")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 195.834 84.582 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ceb48d1-61ca-4190-8379-e291406a054b")
+		(property "Reference" "R11"
+			(at 195.834 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 195.834 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 195.834 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.834 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 195.834 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 195.834 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 195.834 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 195.834 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6bb3197c-6360-45ea-a18e-e8bebadfb483")
+		)
+		(pin "1"
+			(uuid "b5706a4e-d219-42c8-ba90-77c7360dacae")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 239.268 83.058 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a140687c-b7e0-40e3-85de-58b5158e75d8")
+		(property "Reference" "R17"
+			(at 239.268 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 239.268 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 239.268 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 239.268 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 239.268 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 239.268 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 239.268 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 239.268 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe06eb29-10ca-4170-9bab-122951cca106")
+		)
+		(pin "1"
+			(uuid "6765f68e-4664-4127-96ad-b11bed4e6aad")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 59.944 155.956 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a317700a-bcea-4237-977a-4223567f2fe9")
+		(property "Reference" "74HC595-3"
+			(at 62.1381 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 62.1381 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 59.944 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+			(at 59.944 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 59.944 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C5947"
+			(at 59.944 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 59.944 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 59.944 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "b1872c84-b59a-4c97-a468-fb9026bfe4af")
+		)
+		(pin "14"
+			(uuid "6ccba2fd-5641-4eea-845f-aa2b9352207a")
+		)
+		(pin "10"
+			(uuid "7bd09b1d-128b-44e3-b3b7-867de0ee40f4")
+		)
+		(pin "8"
+			(uuid "bcefc6ae-c18a-435a-8203-9693af2c77e3")
+		)
+		(pin "9"
+			(uuid "08fa82a4-99ee-47a0-b1ab-f7580b2cbae9")
+		)
+		(pin "6"
+			(uuid "b8a04550-1020-43ed-8c06-51cec867dc84")
+		)
+		(pin "7"
+			(uuid "30a47dcd-c167-4ecc-acb1-db6d41960dd6")
+		)
+		(pin "4"
+			(uuid "8a4421b7-532d-4cb1-a91b-decd227fa423")
+		)
+		(pin "5"
+			(uuid "3068d3e4-3c89-4281-a758-f66bd2797527")
+		)
+		(pin "2"
+			(uuid "46667e4b-bae9-4cf6-9276-8c9da6250e32")
+		)
+		(pin "3"
+			(uuid "3cebd2cc-846f-4c3e-9598-09d331a5857b")
+		)
+		(pin "12"
+			(uuid "51cb1053-4c04-4014-b969-1c24112bdd1a")
+		)
+		(pin "1"
+			(uuid "ad60604e-2375-4317-9e6a-0dabb6dd3178")
+		)
+		(pin "15"
+			(uuid "124e2249-b0d4-4f6f-82c5-fbd745f2a8f4")
+		)
+		(pin "16"
+			(uuid "1628f6c1-3abb-46d8-8de5-ffaf869b6528")
+		)
+		(pin "11"
+			(uuid "ffa6f545-3e62-4f8c-823a-272525c98133")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "74HC595-?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "74HC595-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 139.446 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a433dcad-7358-4ec0-a2bc-1c34e50edca5")
+		(property "Reference" "LED7"
+			(at 139.446 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 139.446 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 139.446 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.446 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.446 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 139.446 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 139.446 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.446 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "997a8caa-4da8-46fe-89da-852f8f60d0dc")
+		)
+		(pin "2"
+			(uuid "835a4228-886a-41e8-ad40-cea2567b4d12")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 59.944 107.696 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aabc25b6-2ce1-45ef-9c14-609f7e674370")
+		(property "Reference" "74HC595-2"
+			(at 62.1381 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 62.1381 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 59.944 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+			(at 59.944 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 59.944 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C5947"
+			(at 59.944 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 59.944 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 59.944 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "5584060f-92d6-44e7-824a-fd70694ca0cd")
+		)
+		(pin "14"
+			(uuid "19bba6df-485c-4e8a-97a3-494f4f97d0b6")
+		)
+		(pin "10"
+			(uuid "329a3428-71f5-407e-bfc7-a4351879d2ac")
+		)
+		(pin "8"
+			(uuid "30928ff8-2453-4f21-9a34-f5e4b20a14b9")
+		)
+		(pin "9"
+			(uuid "19d9d26b-32ef-47ad-897f-7d3d6f28d530")
+		)
+		(pin "6"
+			(uuid "4ce4fe74-4415-4380-a803-0fd6ee5b8a23")
+		)
+		(pin "7"
+			(uuid "d540da5f-b1c9-4e31-bfe8-59eb31b36a00")
+		)
+		(pin "4"
+			(uuid "dd9b1cb9-30f2-4d0c-b47f-08e92bde5fcf")
+		)
+		(pin "5"
+			(uuid "41ab67f8-6ba3-45b1-b3c1-08800cc81472")
+		)
+		(pin "2"
+			(uuid "4f78764e-338e-4c3f-804e-1fe0a9cee979")
+		)
+		(pin "3"
+			(uuid "302464ce-1f7a-44c4-870a-5081580ce9ea")
+		)
+		(pin "12"
+			(uuid "c984b416-4708-46d9-9e56-a9c0054a00c6")
+		)
+		(pin "1"
+			(uuid "dd600e21-b313-4784-9baf-a1820db49f5e")
+		)
+		(pin "15"
+			(uuid "1c0df38e-dd2d-48d5-b39b-24a05a4642a5")
+		)
+		(pin "16"
+			(uuid "e288c6a0-fa4b-4743-9322-4b298a166cf8")
+		)
+		(pin "11"
+			(uuid "a1b53863-34c2-477d-8daf-19a457d02876")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "74HC595-?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "74HC595-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 239.776 74.422 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b56fba42-3e58-4ea5-87f3-9bb4dbd35f0e")
+		(property "Reference" "R19"
+			(at 239.776 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 239.776 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 239.776 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 239.776 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 239.776 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 239.776 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 239.776 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 239.776 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef4ce384-60ea-4813-a73e-59218b28e6a3")
+		)
+		(pin "1"
+			(uuid "6e3353dd-db20-4f21-a544-b84719a11358")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 139.192 123.444 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b58b9d92-5fca-4096-b2e0-6fc24f0daf6d")
+		(property "Reference" "LED6"
+			(at 139.192 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 139.192 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 139.192 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.192 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.192 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 139.192 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 139.192 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.192 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df7a5167-6bf6-41ab-9898-5cbc97cbc2ea")
+		)
+		(pin "2"
+			(uuid "223c77b9-1973-45e7-818f-28a85390e786")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 150.368 132.842 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd79c195-ebf7-4105-b2c6-50a9ac32e69a")
+		(property "Reference" "R8"
+			(at 150.368 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 150.368 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 150.368 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 150.368 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 150.368 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 150.368 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 150.368 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 150.368 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5131a4c3-af74-4cd5-a385-22844c0f5c63")
+		)
+		(pin "1"
+			(uuid "f86d9b3b-b1b7-403f-97d9-51351123be4a")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 185.42 122.428 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0238d6b-5a74-4b62-b4d1-8543e8153e75")
+		(property "Reference" "LED14"
+			(at 185.42 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 185.42 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 185.42 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 185.42 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 185.42 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.42 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08e435fa-9685-4af3-a6a6-b583fc18b5e1")
+		)
+		(pin "2"
+			(uuid "0332be5b-76fa-41a8-b4e0-a6755e3bbf60")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 149.606 76.454 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c41c0bc9-fb8d-4f97-885a-287e3c385168")
+		(property "Reference" "R2"
+			(at 149.606 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 149.606 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.606 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.606 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 149.606 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 149.606 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.606 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.606 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb150705-42e8-44a0-a6ee-8dcca33210f3")
+		)
+		(pin "1"
+			(uuid "e23ce2a9-7c6d-425d-892d-eb0aa9285d60")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 185.674 131.826 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1716176-6549-4b4f-b96a-175e458ba9a6")
+		(property "Reference" "LED16"
+			(at 185.674 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 185.674 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 185.674 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.674 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.674 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 185.674 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 185.674 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.674 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57103db4-13ca-4e2e-bfd9-42432294c6f0")
+		)
+		(pin "2"
+			(uuid "9cc551fb-f5ed-486b-9118-0f4263c1a710")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 185.42 103.886 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d18597b2-d63e-4ce2-8359-53cbb53417c7")
+		(property "Reference" "LED13"
+			(at 185.42 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 185.42 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 185.42 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 185.42 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 185.42 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.42 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39365774-0e82-459f-b0e7-d59a6f2d8139")
+		)
+		(pin "2"
+			(uuid "a9c8818e-afe3-4400-a040-81684969ef84")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 239.522 65.024 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d47064ca-2d57-4101-bff1-67b3ba8a708f")
+		(property "Reference" "R18"
+			(at 239.522 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 239.522 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 239.522 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 239.522 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 239.522 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 239.522 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 239.522 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 239.522 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f15efd9-0228-4565-afc4-44ee870766ad")
+		)
+		(pin "1"
+			(uuid "db81dd35-f262-455a-8cb0-e44e9ae8e9e4")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 139.446 132.842 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6c8564a-89f1-47ff-8a11-e6a93a9e63cd")
+		(property "Reference" "LED8"
+			(at 139.446 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 139.446 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 139.446 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.446 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.446 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 139.446 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 139.446 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.446 132.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8454e1de-218f-445a-a355-47981d755a64")
+		)
+		(pin "2"
+			(uuid "a7ee40a1-aad2-4509-92d3-83e92c30d6b0")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 138.684 76.454 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7e93a3e-19ac-411f-9193-e1ec8d55570c")
+		(property "Reference" "LED2"
+			(at 138.684 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 138.684 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 138.684 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.684 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.684 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 138.684 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 138.684 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 138.684 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3aee7cb3-4708-438b-bfc7-d05268678591")
+		)
+		(pin "2"
+			(uuid "db8b7a93-e661-4150-80e3-951b7cd8efbd")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 138.43 67.056 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e018467a-1570-4897-9aab-2892b09876be")
+		(property "Reference" "LED1"
+			(at 138.43 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 138.43 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 138.43 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 138.43 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 138.43 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 138.43 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35a48baa-04a4-44e3-9e47-22e1a76a2873")
+		)
+		(pin "2"
+			(uuid "d101bc48-67ab-48d9-97f5-888dd1c3f60f")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+			(project "Traktorino"
+				(path "/7dee34d0-9c52-4741-9e8b-558208cd2ec1/5d356bbe-6c52-47c2-bed2-3e6e20f3abe1"
+					(reference "VU7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC595")
+		(at 59.69 57.404 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e272843c-5845-43bd-b62f-72ad99bdac02")
+		(property "Reference" "74HC595-1"
+			(at 61.8841 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC595"
+			(at 61.8841 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 59.69 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+			(at 59.69 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 59.69 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C5947"
+			(at 59.69 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 59.69 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 59.69 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "812e8382-0dcc-4d3c-9055-e1db980dce04")
+		)
+		(pin "14"
+			(uuid "7d2b92a7-1b2a-4636-8651-ebe38117d112")
+		)
+		(pin "10"
+			(uuid "9106da0b-8e9b-46ff-9484-97ef019c6768")
+		)
+		(pin "8"
+			(uuid "65f06a67-a498-44ef-b41e-ef8b32b27466")
+		)
+		(pin "9"
+			(uuid "1df1c44a-eb26-425e-bebf-b4aa3b864512")
+		)
+		(pin "6"
+			(uuid "77d4321b-9e24-411f-9c73-3d00397f7388")
+		)
+		(pin "7"
+			(uuid "eac2f154-113e-482c-8316-5f9e56ccd75c")
+		)
+		(pin "4"
+			(uuid "d4e9aec3-09cc-49f1-878d-215e1a42bbe0")
+		)
+		(pin "5"
+			(uuid "ed2bae8c-3f67-46e6-88bd-2a3a264401c0")
+		)
+		(pin "2"
+			(uuid "c108e27d-fef7-4c16-8929-22ca092b47e4")
+		)
+		(pin "3"
+			(uuid "ff921cca-381b-4430-9d2d-79356d7f1a92")
+		)
+		(pin "12"
+			(uuid "9b7881f3-c299-4c4d-9d7f-a06c585cec7f")
+		)
+		(pin "1"
+			(uuid "af5d7215-bbc0-451c-b857-a48a40b0ed66")
+		)
+		(pin "15"
+			(uuid "67fa95a9-2e21-4f82-af5e-95b2092e8b78")
+		)
+		(pin "16"
+			(uuid "b816f9cd-505c-4d3e-9974-d4dba4a1cf17")
+		)
+		(pin "11"
+			(uuid "35fc3b56-62f1-4e25-8daa-a3c339b20126")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "74HC595-?")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "74HC595-1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/7dee34d0-9c52-4741-9e8b-558208cd2ec1/5d356bbe-6c52-47c2-bed2-3e6e20f3abe1"
+					(reference "74hc595-VU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 196.342 122.428 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4d26c9c-e695-49f8-8342-2a1e3dafdb1f")
+		(property "Reference" "R14"
+			(at 196.342 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 196.342 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 196.342 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.342 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 196.342 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 196.342 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 196.342 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 196.342 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e8a572c-6b67-41b9-8d2a-26d9132d5740")
+		)
+		(pin "1"
+			(uuid "fbb30111-d1f0-427f-93a9-e9107adb21cf")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 149.606 85.598 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f823b6a2-7a42-4bb8-bba7-2f0b9accf9f5")
+		(property "Reference" "R3"
+			(at 149.606 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330Ω"
+			(at 149.606 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.606 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.606 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 149.606 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25104"
+			(at 149.606 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.606 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.606 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60a45ec7-60e9-4b96-bd15-39e5c2248ca3")
+		)
+		(pin "1"
+			(uuid "c0100bd5-da18-4f34-af0f-e3f7bd648444")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Traktorino-rescue:LED-RESCUE-DJ_0")
+		(at 139.192 104.902 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd607ca0-468d-43b1-8e6c-29d65ac8007d")
+		(property "Reference" "LED5"
+			(at 139.192 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 139.192 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear-2"
+			(at 139.192 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.192 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.192 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 139.192 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 139.192 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.192 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "207fd9f8-8f7f-45cf-ac70-ccea8d2554b4")
+		)
+		(pin "2"
+			(uuid "6d0a8866-8a07-4ca3-a6b5-5c8a7c14f42a")
+		)
+		(instances
+			(project "LEDs"
+				(path "/03f3958b-24d1-44a4-a7fc-243676293e1f"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "SSL-EQ-Rack"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/05949749-2d99-4933-9d39-291d8db96be2"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

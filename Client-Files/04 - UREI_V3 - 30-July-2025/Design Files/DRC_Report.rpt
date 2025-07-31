@@ -1,0 +1,96 @@
+** Drc report for UREI 1176.kicad_pcb **
+** Created on 2025-07-03T15:16:42+0300 **
+
+** Found 16 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(292.0000 mm, 153.1000 mm): Footprint SW2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(292.0000 mm, 113.1000 mm): Footprint SW1
+[lib_footprint_mismatch]: Footprint 'Jack_3.5mm_PJ320D_Horizontal' does not match copy in library 'Connector_Audio'.
+    Local override; warning
+    @(82.0740 mm, 131.5000 mm): Footprint AudioIn1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(213.5000 mm, 132.1000 mm): Footprint pot2
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(120.5000 mm, 132.1000 mm): Footprint pot1
+[lib_footprint_issues]: Footprint 'SW_PB21E09471-465' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(351.0000 mm, 154.3900 mm): Footprint toggle_sw4
+[lib_footprint_mismatch]: Footprint 'SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(145.0000 mm, 155.0000 mm): Footprint Voltage_reg1
+[lib_footprint_issues]: Footprint 'SW_PB21E09471-465' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(471.0000 mm, 108.7100 mm): Footprint toggle_sw5
+[lib_footprint_issues]: Footprint 'SW_PB21E09471-465' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(471.0100 mm, 139.1600 mm): Footprint toggle_sw7
+[lib_footprint_issues]: Footprint 'SW_PB21E09471-465' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(471.0000 mm, 123.9400 mm): Footprint toggle_sw6
+[lib_footprint_issues]: Footprint 'SW_PB21E09471-465' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(471.0000 mm, 154.3900 mm): Footprint toggle_sw8
+[lib_footprint_issues]: Footprint 'SW_PB21E09471-465' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(351.0000 mm, 139.1600 mm): Footprint toggle_sw3
+[lib_footprint_issues]: Footprint 'SW_PB21E09471-465' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(351.0000 mm, 123.9400 mm): Footprint toggle_sw2
+[lib_footprint_issues]: Footprint 'SW_PB21E09471-465' not found in library 'Button_Switch_THT'.
+    Local override; warning
+    @(351.0000 mm, 108.7000 mm): Footprint toggle_sw1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Espressif'.
+    Local override; warning
+    @(163.0940 mm, 107.1780 mm): Footprint ESP32-S3-1
+[lib_footprint_issues]: Footprint 'USRES1' not found in library 'RF'.
+    Local override; warning
+    @(98.4300 mm, 166.7970 mm): Footprint USR-ES1
+
+** Found 0 unconnected pads **
+
+** Found 11 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(80.4000 mm, 103.6000 mm): Footprint mout
+    @(321.5000 mm, 131.5500 mm): Footprint mout
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(505.0000 mm, 159.5000 mm): Footprint mout
+    @(321.5000 mm, 131.5500 mm): Footprint mout
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(505.0000 mm, 103.6000 mm): Footprint mout
+    @(321.5000 mm, 131.5500 mm): Footprint mout
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(259.0000 mm, 131.8683 mm): Footprint mout
+    @(321.5000 mm, 131.5500 mm): Footprint mout
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(80.4000 mm, 159.5000 mm): Footprint mout
+    @(321.5000 mm, 131.5500 mm): Footprint mout
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(321.5000 mm, 131.5500 mm): Footprint mout
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(80.4000 mm, 103.6000 mm): Footprint mout
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(505.0000 mm, 159.5000 mm): Footprint mout
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(505.0000 mm, 103.6000 mm): Footprint mout
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(259.0000 mm, 131.8683 mm): Footprint mout
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(80.4000 mm, 159.5000 mm): Footprint mout
+
+** End of Report **

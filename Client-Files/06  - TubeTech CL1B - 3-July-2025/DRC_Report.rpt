@@ -1,0 +1,86 @@
+** Drc report for TubeTech_CL1.kicad_pcb **
+** Created on 2025-07-03T16:43:08+0300 **
+
+** Found 15 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(445.2812 mm, 186.0753 mm): Footprint RTRY_SW1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(245.8416 mm, 121.9324 mm): Footprint pot3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'digikey-footprints'.
+    Local override; warning
+    @(107.4916 mm, 192.5524 mm): Footprint tgl_sw_3p-1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(385.9816 mm, 121.9324 mm): Footprint SW2
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(175.4816 mm, 121.9324 mm): Footprint pot1
+[lib_footprint_mismatch]: Footprint 'TSSOP-24_4.4x7.8mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(140.0000 mm, 180.0000 mm): Footprint MUX1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(175.4816 mm, 186.0724 mm): Footprint pot2
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(245.8416 mm, 186.0724 mm): Footprint pot4
+[lib_footprint_mismatch]: Footprint 'SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(129.0000 mm, 210.9000 mm): Footprint Voltage_reg1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(385.9816 mm, 186.0724 mm): Footprint pot6
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(316.2316 mm, 121.9324 mm): Footprint pot5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(316.2316 mm, 186.0724 mm): Footprint SW1
+[lib_footprint_mismatch]: Footprint 'Jack_3.5mm_PJ320D_Horizontal' does not match copy in library 'Connector_Audio'.
+    Local override; warning
+    @(90.8616 mm, 203.7074 mm): Footprint AudioIn1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Espressif'.
+    Local override; warning
+    @(113.4616 mm, 139.7724 mm): Footprint ESP32-S3-1
+[lib_footprint_issues]: Footprint 'USRES1' not found in library 'RF'.
+    Local override; warning
+    @(90.0816 mm, 159.5424 mm): Footprint USR-ES1
+
+** Found 0 unconnected pads **
+
+** Found 9 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(88.7116 mm, 119.1124 mm): Footprint REF**
+    @(527.3116 mm, 119.1124 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(527.3116 mm, 192.4624 mm): Footprint REF**
+    @(527.3116 mm, 119.1124 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(88.7116 mm, 192.4624 mm): Footprint REF**
+    @(527.3116 mm, 119.1124 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(276.7216 mm, 155.7824 mm): Footprint REF**
+    @(527.3116 mm, 119.1124 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(527.3116 mm, 119.1124 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(88.7116 mm, 119.1124 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(527.3116 mm, 192.4624 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(88.7116 mm, 192.4624 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(276.7216 mm, 155.7824 mm): Footprint REF**
+
+** End of Report **

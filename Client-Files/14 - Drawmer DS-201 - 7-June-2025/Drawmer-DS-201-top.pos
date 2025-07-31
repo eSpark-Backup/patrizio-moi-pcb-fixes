@@ -1,0 +1,63 @@
+### Footprint positions - created on 2025-06-07T10:24:26+0300 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref           Val            Package                                                   PosX       PosY       Rot  Side
+74HC595-1       74HC595        SOIC-16_3.9x9.9mm_P1.27mm                             195.2115   -69.5335  -90.0000  top
+C1              0.1uF          C_0402_1005Metric                                     184.2115   -94.0335  180.0000  top
+C2              0.1uF          C_0402_1005Metric                                     175.7115   -89.5335   90.0000  top
+C3              3.3 nF       C_0603_1608Metric                                     136.5615   -74.6835  -90.0000  top
+C4              0.1 µF      C_0402_1005Metric                                     146.9615   -74.1835  -90.0000  top
+C5              22uF           C_0603_1608Metric                                     149.4615   -74.6835   90.0000  top
+C6              0.1 µF      C_0402_1005Metric                                     138.0615   -74.9335  -90.0000  top
+C7              0.1 µF      C_0402_1005Metric                                     147.4615   -68.4335  180.0000  top
+C8              22uF           C_0603_1608Metric                                     159.7115   -70.1835    0.0000  top
+C9              22uF           C_0603_1608Metric                                     159.7115   -68.4335    0.0000  top
+C_IN1           4.7 µF      C_0402_1005Metric                                     148.2115   -74.1835  -90.0000  top
+L1              10µH          L_Bourns-SRN8040_8x8.15mm                             153.2115   -68.5335    0.0000  top
+LED1            Red            LED_D3.0mm_Clear-2                                    209.5255   -73.0715    0.0000  top
+LED2            Red            LED_D3.0mm_Clear-2                                    289.9585   -92.0685    0.0000  top
+LED3            Red            LED_D3.0mm_Clear-2                                    422.0375   -73.0715    0.0000  top
+LED4            Red            LED_D3.0mm_Clear-2                                    501.2725   -92.0675    0.0000  top
+LED5            Yellow         LED_D3.0mm_Clear-2                                    217.0395   -73.0715    0.0000  top
+LED6            Green          LED_D3.0mm_Clear-2                                    224.5545   -73.0715    0.0000  top
+LED7            Yellow         LED_D3.0mm_Clear-2                                    429.5525   -73.0715    0.0000  top
+LED8            Green          LED_D3.0mm_Clear-2                                    437.0315   -73.0715    0.0000  top
+MUX1            CD4067BMT/TR   TSSOP-24_4.4x7.8mm_P0.65mm                            178.7115   -97.5335    0.0000  top
+MUX2            CD4067BMT/TR   TSSOP-24_4.4x7.8mm_P0.65mm                            178.5740   -83.8585  180.0000  top
+R1              6.8kΩ         R_0603_1608Metric                                     136.5615   -71.6835   90.0000  top
+R2              43 kΩ       R_0402_1005Metric                                     154.4615   -63.0335  180.0000  top
+R3              10 kΩ       R_0402_1005Metric                                     136.9615   -68.9335  180.0000  top
+R4              330Ω          R_0402_1005Metric                                     214.2115   -73.0335    0.0000  top
+R5              330Ω          R_0402_1005Metric                                     294.7115   -92.0335    0.0000  top
+R6              330Ω          R_0402_1005Metric                                     426.7115   -73.0335    0.0000  top
+R7              330Ω          R_0402_1005Metric                                     506.2115   -92.0335    0.0000  top
+R8              330Ω          R_0402_1005Metric                                     221.7115   -73.0715    0.0000  top
+R9              330Ω          R_0402_1005Metric                                     229.2115   -73.0335    0.0000  top
+R10             330Ω          R_0402_1005Metric                                     434.2115   -73.0335    0.0000  top
+R11             330Ω          R_0402_1005Metric                                     441.7115   -73.0335    0.0000  top
+R12             100kΩ         R_0603_1608Metric                                     133.4115   -75.3335   90.0000  top
+Voltage_reg1    MP2307DN-LF-Z  SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias   142.7115   -71.4335  180.0000  top
+pot1            b10k           Potentiometer_Alps_RK09K_Single_Vertical              103.3045   -86.8305    0.0000  top
+pot2            b10k           Potentiometer_Alps_RK09K_Single_Vertical              133.3165   -86.8305    0.0000  top
+pot3            b10k           Potentiometer_Alps_RK09K_Single_Vertical              163.3115   -86.8295    0.0000  top
+pot4            b10k           Potentiometer_Alps_RK09K_Single_Vertical              193.3065   -86.8295    0.0000  top
+pot5            b10k           Potentiometer_Alps_RK09K_Single_Vertical              218.3095   -86.8305    0.0000  top
+pot6            b10k           Potentiometer_Alps_RK09K_Single_Vertical              243.3205   -86.8305    0.0000  top
+pot7            b10k           Potentiometer_Alps_RK09K_Single_Vertical              273.3075   -86.8315    0.0000  top
+pot8            b10k           Potentiometer_Alps_RK09K_Single_Vertical              315.8175   -86.8305    0.0000  top
+pot9            b10k           Potentiometer_Alps_RK09K_Single_Vertical              345.8025   -86.8305    0.0000  top
+pot10           b10k           Potentiometer_Alps_RK09K_Single_Vertical              375.8155   -86.8305    0.0000  top
+pot11           b10k           Potentiometer_Alps_RK09K_Single_Vertical              405.8105   -86.8295    0.0000  top
+pot12           b10k           Potentiometer_Alps_RK09K_Single_Vertical              430.8145   -86.8305    0.0000  top
+pot13           b10k           Potentiometer_Alps_RK09K_Single_Vertical              456.3025   -86.8305    0.0000  top
+pot14           b10k           Potentiometer_Alps_RK09K_Single_Vertical              486.3145   -86.8305    0.0000  top
+toggle_sw_2p-1  toggle_sw_2p   Toggle_Switch-2-pins                                  118.5265   -72.6475    0.0000  top
+toggle_sw_2p-2  toggle_sw_2p   Toggle_Switch-2-pins                                  179.4335   -72.6485    0.0000  top
+toggle_sw_2p-3  toggle_sw_2p   Toggle_Switch-2-pins                                  291.2465   -76.8635   90.0000  top
+toggle_sw_2p-4  toggle_sw_2p   Toggle_Switch-2-pins                                  332.0265   -72.6485    0.0000  top
+toggle_sw_2p-5  toggle_sw_2p   Toggle_Switch-2-pins                                  390.6585   -72.6485    0.0000  top
+toggle_sw_2p-6  toggle_sw_2p   Toggle_Switch-2-pins                                  502.5605   -77.3415   90.0000  top
+toggle_sw_3p-1  toggle_sw_3p   Toggle_Switch-3-pins                                  259.3375   -73.0725    0.0000  top
+toggle_sw_3p-2  toggle_sw_3p   Toggle_Switch-3-pins                                  471.3575   -72.6485    0.0000  top
+## End

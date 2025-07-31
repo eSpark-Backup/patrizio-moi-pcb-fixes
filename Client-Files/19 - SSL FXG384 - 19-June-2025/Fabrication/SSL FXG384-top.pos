@@ -1,0 +1,69 @@
+### Footprint positions - created on 2025-06-19T13:34:35+0300 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref            Val               Package                                                   PosX       PosY       Rot  Side
+AudioIn1         AudioIn           Jack_3.5mm_PJ320D_Horizontal                            9.9300    21.4000    0.0000  top
+C1               0.1uF             C_0402_1005Metric                                     285.9000    25.5500  -90.0000  top
+C2               2.2uF             C_0402_1005Metric                                     204.9000    23.5500  -90.0000  top
+C3               2.2uF             C_0402_1005Metric                                     169.7000    27.2500  -90.0000  top
+C4               2.2uF             C_0402_1005Metric                                     131.2000    24.2500  -90.0000  top
+C5               3.3 nF          C_0603_1608Metric                                      75.2500    30.4000  -90.0000  top
+C6               0.1 µF         C_0402_1005Metric                                      85.6500    30.9000  -90.0000  top
+C7               22uF              C_0603_1608Metric                                      88.1500    30.4000   90.0000  top
+C8               0.1 µF         C_0402_1005Metric                                      76.7500    30.1500  -90.0000  top
+C9               0.1 µF         C_0402_1005Metric                                      86.1000    36.6500  180.0000  top
+C10              22uF              C_0603_1608Metric                                      98.4000    36.5500    0.0000  top
+C11              22uF              C_0603_1608Metric                                      98.4000    34.8000    0.0000  top
+C12              4.7uF             C_0402_1005Metric                                      19.4000    24.0500    0.0000  top
+C13              4.7uF             C_0402_1005Metric                                      19.4000    22.0500  180.0000  top
+C14              4.7uF             C_0402_1005Metric                                      30.4000    24.5500   90.0000  top
+C15              0.1uF             C_0402_1005Metric                                     383.4000    41.0500  180.0000  top
+C16              4.7uF             C_0402_1005Metric                                     369.9000    35.5500    0.0000  top
+C17              0.1uF             C_0402_1005Metric                                     369.9000    34.0500    0.0000  top
+C_IN1            4.7 µF         C_0402_1005Metric                                      86.9000    30.9000  -90.0000  top
+D1               BAT54SW           D_SOD-323                                              27.9000    22.0500  180.0000  top
+L1               10µH             L_Bourns-SRN8040_8x8.15mm                              91.9000    36.5500    0.0000  top
+MUX1             CD4067BMT/TR      TSSOP-24_4.4x7.8mm_P0.65mm                            282.9000    20.0500    0.0000  top
+NPN_Transistor1  2N2219            SOT-23                                                384.4000    32.0500    0.0000  top
+OpAmp1           MCP6002-          SOIC-8_3.9x4.9mm_P1.27mm                              375.4000    38.5500  180.0000  top
+R1               4.7KΩ            R_0402_1005Metric                                      32.1000    22.0500    0.0000  top
+R2               100Ω             R_0402_1005Metric                                     203.4000    23.0500    0.0000  top
+R3               2.2KΩ            R_0402_1005Metric                                     237.4000    28.5500    0.0000  top
+R4               2.2KΩ            R_0402_1005Metric                                     237.4000    25.5500    0.0000  top
+R5               2.2KΩ            R_0402_1005Metric                                     237.4000    22.5500    0.0000  top
+R6               2.2KΩ            R_0402_1005Metric                                     237.4000    19.5500    0.0000  top
+R7               100Ω             R_0402_1005Metric                                     168.2000    26.8500    0.0000  top
+R8               2.2KΩ            R_0402_1005Metric                                     198.3200    26.6700    0.0000  top
+R9               2.2KΩ            R_0402_1005Metric                                     198.3200    25.4700    0.0000  top
+R10              100Ω             R_0402_1005Metric                                     129.2000    23.7500    0.0000  top
+R11              2.2KΩ            R_0402_1005Metric                                     160.2000    28.0500    0.0000  top
+R12              2.2KΩ            R_0402_1005Metric                                     160.2000    26.7500    0.0000  top
+R13              2.2KΩ            R_0402_1005Metric                                     160.2000    25.4500    0.0000  top
+R14              2.2KΩ            R_0402_1005Metric                                     160.2000    24.1500    0.0000  top
+R15              2.2KΩ            R_0402_1005Metric                                     160.2000    22.4500    0.0000  top
+R16              1kΩ              R_0402_1005Metric                                     380.9100    32.0500  180.0000  top
+R17              80Ω              R_0402_1005Metric                                     391.4000    28.5500   90.0000  top
+R18              6.8kΩ            R_0603_1608Metric                                      75.2500    33.4000   90.0000  top
+R19              43 kΩ          R_0402_1005Metric                                      93.1500    42.0500  180.0000  top
+R20              10 kΩ          R_0402_1005Metric                                      75.6500    36.1500  180.0000  top
+R21              10KΩ             R_0402_1005Metric                                      22.4000    22.0500  180.0000  top
+R22              10KΩ             R_0402_1005Metric                                      22.4000    24.0500  180.0000  top
+R23              2.7KΩ            R_0603_1608Metric                                     384.4000    38.0500    0.0000  top
+R24              10KΩ             R_0402_1005Metric                                      24.9000    22.0500  180.0000  top
+R25              47KΩ             R_0402_1005Metric                                      28.9000    24.5500  -90.0000  top
+R26              92R               R_0402_1005Metric                                     380.9000    41.0500  180.0000  top
+R27              100kΩ            R_0603_1608Metric                                      72.1000    29.7500   90.0000  top
+SW1              SW_Rotary_1x5_MP  SW_Rotary_RS25-5P                                     221.1000    22.1920    0.0000  top
+SW2              SW_Rotary_1x3_MP  SW_Rotary_RS25-3P                                     183.1000    22.1920    0.0000  top
+SW3              SW_Rotary_1x6_MP  SW_Rotary_RS25-6P                                     145.1000    22.1910    0.0000  top
+VU42-1           VU42              PinSocket_1x02_P2.54mm_Vertical                       391.1500    40.0250  -90.0000  top
+VU_Lamp-1        VU_Lamp           PinSocket_1x02_P2.54mm_Vertical                       391.1500    32.0500  -90.0000  top
+Voltage_reg1     MP2307DN-LF-Z     SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias    81.4000    33.6500  180.0000  top
+button1          bttn              SW_TL2285EE                                           300.2000    22.1080    0.0000  top
+button2          bttn              SW_TL2285EE                                           339.2000    22.1080    0.0000  top
+button3          bttn              SW_TL2285EE                                           378.2000    22.1080    0.0000  top
+pot1             b10k              Potentiometer_Alps_RK09K_Single_Vertical              107.1000    22.1920    0.0000  top
+pot2             b10k              Potentiometer_Alps_RK09K_Single_Vertical              259.1000    22.1920    0.0000  top
+pot3             b10k              Potentiometer_Alps_RK09K_Single_Vertical              416.8200    22.1920    0.0000  top
+## End

@@ -1,0 +1,11 @@
+### Footprint positions - created on 2025-06-19T13:34:35+0300 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref        Val               Package                                     PosX       PosY       Rot  Side
+ESP32-S3-1   ESP32-S3-DevKitC  ESP32-S3-DEVKITC-1-N8R2-2               298.8990    23.5220  -90.0000  bottom
+JST_XH-1     JST_XH_2_Pin      JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical    24.0500     5.2750    0.0000  bottom
+JST_XH-2     JST_XH_2_Pin      JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical    24.0500    13.0750    0.0000  bottom
+Power_jack1  Jack-DC           BarrelJack_Horizontal                    85.2575    14.8000   90.0000  bottom
+USR-ES1      USR-ES1           USRES1                                  348.4400     8.8000    0.0000  bottom
+## End
