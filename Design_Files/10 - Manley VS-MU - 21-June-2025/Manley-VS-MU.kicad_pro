@@ -518,7 +518,7 @@
       "plot": "Fabrication/",
       "pos_files": "Fabrication/",
       "specctra_dsn": "",
-      "step": "Manley-VS-MU.step",
+      "step": "Step/Manley-VS-MU.step",
       "svg": "",
       "vrml": ""
     },
