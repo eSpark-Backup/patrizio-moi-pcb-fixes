@@ -1,0 +1,9553 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3f709906-ac5f-4f7b-b21b-33cac2ca29e8")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_SPDT_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.2032) (xy 2.3368 1.9812)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Theo-rescue:CD74HC4067M_2-74xx"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CD74HC4067M_2-74xx"
+				(at -7.62 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+				(at 22.86 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -8.89 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*W*7.5x15.4mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CD74HC4067M_2-74xx_0_1"
+				(rectangle
+					(start -8.89 19.05)
+					(end 8.89 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CD74HC4067M_2-74xx_1_1"
+				(pin passive line
+					(at -12.7 16.51 0)
+					(length 3.81)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 13.97 0)
+					(length 3.81)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 11.43 0)
+					(length 3.81)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 8.89 0)
+					(length 3.81)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 6.35 0)
+					(length 3.81)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 3.81 0)
+					(length 3.81)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 1.27 0)
+					(length 3.81)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -1.27 0)
+					(length 3.81)
+					(name "I1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -3.81 0)
+					(length 3.81)
+					(name "I0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -6.35 0)
+					(length 3.81)
+					(name "S0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -8.89 0)
+					(length 3.81)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -11.43 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 16.51 180)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 13.97 180)
+					(length 3.81)
+					(name "I8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 11.43 180)
+					(length 3.81)
+					(name "I9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 8.89 180)
+					(length 3.81)
+					(name "I10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 6.35 180)
+					(length 3.81)
+					(name "I11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 3.81 180)
+					(length 3.81)
+					(name "I12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 1.27 180)
+					(length 3.81)
+					(name "I13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 3.81)
+					(name "I14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 180)
+					(length 3.81)
+					(name "I15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -6.35 180)
+					(length 3.81)
+					(name "~{E}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -8.89 180)
+					(length 3.81)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -11.43 180)
+					(length 3.81)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Latching Buttons"
+		(exclude_from_sim no)
+		(at 31.75 261.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a45a41b-a8f8-4fdf-9484-f71efddfb94c")
+	)
+	(text "Potentiometers"
+		(exclude_from_sim no)
+		(at 24.384 160.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1300fad6-c9e5-4aee-ae6b-1d896d0f2e12")
+	)
+	(text "4067"
+		(exclude_from_sim no)
+		(at 27.178 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4007409-b933-49fe-b502-3691728beb63")
+	)
+	(junction
+		(at 58.928 29.718)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abefe61e-1da8-44c5-9740-2dc46461f97a")
+	)
+	(junction
+		(at 116.84 29.972)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d485b574-1183-476b-a802-e46d1f4c71e4")
+	)
+	(wire
+		(pts
+			(xy 118.364 133.858) (xy 118.364 134.112)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09988396-027e-482f-a65d-62e97898e304")
+	)
+	(wire
+		(pts
+			(xy 117.094 133.858) (xy 118.364 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b4eb56-f3ee-4335-8c6f-2d8e34c266ef")
+	)
+	(wire
+		(pts
+			(xy 159.512 133.604) (xy 158.496 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a521545-e4e4-470b-b2cb-9ded82979d70")
+	)
+	(wire
+		(pts
+			(xy 177.038 133.35) (xy 176.022 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c840074-cd43-43e9-ac2a-59e80e8e4b6c")
+	)
+	(wire
+		(pts
+			(xy 87.122 134.112) (xy 87.122 134.366)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0b90a1-4e0f-492e-8bd8-4e3e8071174e")
+	)
+	(wire
+		(pts
+			(xy 130.81 128.016) (xy 130.81 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1059c8cf-1f93-4900-b200-d23a6e9c5d7c")
+	)
+	(wire
+		(pts
+			(xy 96.266 128.016) (xy 96.266 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cf3e5f-13db-4dbd-b416-010409965d0e")
+	)
+	(wire
+		(pts
+			(xy 42.164 248.412) (xy 41.402 248.412)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136d55ab-ce68-435b-9dae-92c98b3cfbc9")
+	)
+	(wire
+		(pts
+			(xy 36.322 133.604) (xy 36.322 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bc2512-a653-40e2-be25-288956d307b2")
+	)
+	(wire
+		(pts
+			(xy 26.416 133.604) (xy 26.416 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d10c42-241e-4120-8232-fc9cecfb53ed")
+	)
+	(wire
+		(pts
+			(xy 180.848 127.762) (xy 180.848 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dcb53a-24a2-4639-970a-ad7cac6d2ab6")
+	)
+	(wire
+		(pts
+			(xy 233.426 133.604) (xy 233.426 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8ab259-11c5-4cef-bef8-bfef8147d35b")
+	)
+	(wire
+		(pts
+			(xy 31.242 128.016) (xy 31.242 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21060cde-9243-4127-85fc-40602fcd6778")
+	)
+	(wire
+		(pts
+			(xy 56.388 35.052) (xy 58.928 35.052)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21930de0-0126-49d9-b1fb-202c838daa30")
+	)
+	(wire
+		(pts
+			(xy 65.786 128.016) (xy 65.786 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21be1948-30f2-4a5c-a3bf-de0eb73f0bb1")
+	)
+	(wire
+		(pts
+			(xy 223.52 133.604) (xy 223.52 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229bdfe0-8968-4470-94ae-65c4c772ef4a")
+	)
+	(wire
+		(pts
+			(xy 77.216 134.112) (xy 77.216 134.366)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f48845a-1b0c-43c7-aaaf-03e29cbd4179")
+	)
+	(wire
+		(pts
+			(xy 58.928 35.052) (xy 58.928 29.718)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f0d787-ee88-4cf1-882e-e691cdd79b8c")
+	)
+	(wire
+		(pts
+			(xy 108.458 133.858) (xy 108.458 134.112)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b51ab2-83f6-435c-9974-aa6919e2e80f")
+	)
+	(wire
+		(pts
+			(xy 78.232 134.112) (xy 77.216 134.112)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f0d68d-2a1b-4f55-9347-e90c9d10f848")
+	)
+	(wire
+		(pts
+			(xy 232.156 133.604) (xy 233.426 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a95a0c8-0442-43dd-b391-c4f774bd5664")
+	)
+	(wire
+		(pts
+			(xy 80.01 216.662) (xy 81.28 216.662)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adf4aeb-358e-47a3-8f9d-27f03fe7db0a")
+	)
+	(wire
+		(pts
+			(xy 65.786 216.662) (xy 67.056 216.662)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfb998b-4ff1-40b1-8521-9b644b81fca3")
+	)
+	(wire
+		(pts
+			(xy 135.89 133.604) (xy 135.89 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4016dfba-c57d-4c79-9cf6-08300d867c52")
+	)
+	(wire
+		(pts
+			(xy 54.356 216.662) (xy 55.626 216.662)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d99b98-5ba5-4462-adf5-24031e28d344")
+	)
+	(wire
+		(pts
+			(xy 242.062 133.35) (xy 241.046 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4537c431-f3cf-4283-b553-51e3dfdfb3fc")
+	)
+	(wire
+		(pts
+			(xy 202.184 133.858) (xy 202.184 134.112)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c2746b-6492-4347-ae71-230d6b6629c0")
+	)
+	(wire
+		(pts
+			(xy 127 133.604) (xy 125.984 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481737f8-b109-4d6e-85f8-8cea7995b92a")
+	)
+	(wire
+		(pts
+			(xy 224.536 133.604) (xy 223.52 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1941c6-822e-42ca-9b9d-627a51eecabe")
+	)
+	(polyline
+		(pts
+			(xy 408.178 168.91) (xy 408.178 169.164)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3ea97b-9578-41a8-b30d-c0548a47957b")
+	)
+	(wire
+		(pts
+			(xy 147.066 216.916) (xy 148.336 216.916)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f383210-4d20-468a-9eee-d0ba1ab56750")
+	)
+	(wire
+		(pts
+			(xy 30.734 245.872) (xy 31.242 245.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc0ef12-4d54-4067-a132-edc48add5814")
+	)
+	(wire
+		(pts
+			(xy 163.068 217.17) (xy 164.338 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50786424-7232-4186-9f00-f155248ff573")
+	)
+	(wire
+		(pts
+			(xy 101.346 133.604) (xy 101.346 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e63ac1-7a56-413b-bce1-385d1232c634")
+	)
+	(wire
+		(pts
+			(xy 228.346 128.016) (xy 228.346 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5326ab6e-e0fb-4dff-a43e-fb7be232b12b")
+	)
+	(wire
+		(pts
+			(xy 92.456 133.604) (xy 91.44 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5382644d-ce2c-4e45-a5fe-745adb36b80f")
+	)
+	(wire
+		(pts
+			(xy 167.132 133.604) (xy 168.402 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598e6391-f970-4bc8-bc0e-49fabbc22d0b")
+	)
+	(wire
+		(pts
+			(xy 125.984 133.604) (xy 125.984 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d155be5-60b5-4eab-bcf5-b0fbb12c83b4")
+	)
+	(wire
+		(pts
+			(xy 109.474 133.858) (xy 108.458 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2ae49d-c902-45d4-9a92-4e2421e84570")
+	)
+	(wire
+		(pts
+			(xy 192.278 133.858) (xy 192.278 134.112)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c01fec-8cdb-4a19-95c8-e4a8f3964b92")
+	)
+	(wire
+		(pts
+			(xy 100.076 133.604) (xy 101.346 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690e15ac-3bf3-48cc-8e2b-5d9213125c03")
+	)
+	(wire
+		(pts
+			(xy 107.442 216.916) (xy 108.712 216.916)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b357a2a-13ae-45bb-a8f0-22ec9dc45503")
+	)
+	(wire
+		(pts
+			(xy 158.496 133.604) (xy 158.496 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecaee8b-8d1b-4ca5-bd66-52ee6ebcc42f")
+	)
+	(wire
+		(pts
+			(xy 250.952 133.35) (xy 250.952 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7145f154-c0e4-423b-9cf0-7b403594b158")
+	)
+	(wire
+		(pts
+			(xy 42.164 243.332) (xy 41.402 243.332)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7370725e-ad85-4f0d-bef7-6e4086c46b4f")
+	)
+	(wire
+		(pts
+			(xy 150.114 133.35) (xy 151.384 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7628563f-c89f-4cef-bdea-aded979b5f83")
+	)
+	(wire
+		(pts
+			(xy 70.866 133.604) (xy 70.866 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bc8f17-cb18-4b14-be91-16d195df16e9")
+	)
+	(wire
+		(pts
+			(xy 207.518 133.35) (xy 206.502 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783407db-8f1a-4477-b995-ec19c383292b")
+	)
+	(wire
+		(pts
+			(xy 53.34 133.858) (xy 53.34 134.112)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d943717-ea32-42ed-9494-6ea842061e17")
+	)
+	(wire
+		(pts
+			(xy 216.408 133.35) (xy 216.408 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8479ef04-0b56-4309-8088-16f6df59b48d")
+	)
+	(wire
+		(pts
+			(xy 35.052 133.604) (xy 36.322 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a27f378-7158-4c3e-8e6b-2f2dc53bc03e")
+	)
+	(wire
+		(pts
+			(xy 174.498 217.17) (xy 175.768 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad08477-3eb6-4798-999d-2ba2c039ba73")
+	)
+	(wire
+		(pts
+			(xy 44.45 133.858) (xy 43.434 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d658888-46ba-49d2-9d3c-6bae643d0c05")
+	)
+	(polyline
+		(pts
+			(xy 11.938 169.164) (xy 408.178 169.164)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "93d96116-a4f9-42b5-b3a2-6ca3d559f763")
+	)
+	(wire
+		(pts
+			(xy 60.96 133.604) (xy 60.96 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ff3c01-e90b-42b5-b642-167dcad07e84")
+	)
+	(wire
+		(pts
+			(xy 116.84 27.686) (xy 116.84 29.972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6f3b52-05f6-4dbc-8143-78204c713584")
+	)
+	(wire
+		(pts
+			(xy 52.07 133.858) (xy 53.34 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f560dbb-5421-4cb2-b191-e9bd0cea9638")
+	)
+	(wire
+		(pts
+			(xy 68.072 243.332) (xy 67.31 243.332)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d15566-ac16-4c60-b017-2ac7758b9b44")
+	)
+	(wire
+		(pts
+			(xy 245.872 127.762) (xy 245.872 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ec74d9-0c96-4c3a-b3e9-d0239ae09609")
+	)
+	(wire
+		(pts
+			(xy 48.26 128.27) (xy 48.26 130.048)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d82421-126e-4173-8a9f-dfa3a7e08ec8")
+	)
+	(wire
+		(pts
+			(xy 211.328 127.762) (xy 211.328 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a758ae0c-ec18-401d-bd54-d8b182fd6a14")
+	)
+	(wire
+		(pts
+			(xy 91.44 216.662) (xy 92.71 216.662)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f1532f-c05d-4231-9af2-23d23ecc6397")
+	)
+	(wire
+		(pts
+			(xy 135.636 216.916) (xy 136.906 216.916)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6281fb-dbc7-40b6-89f9-8cbe86fa2b7f")
+	)
+	(wire
+		(pts
+			(xy 206.502 133.35) (xy 206.502 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf07e5d-57f4-415e-b5c0-02d4fb151cc8")
+	)
+	(wire
+		(pts
+			(xy 114.3 35.306) (xy 116.84 35.306)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acbfe16f-389b-47f0-b52e-000bb1f05302")
+	)
+	(wire
+		(pts
+			(xy 151.384 133.35) (xy 151.384 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade0de63-2d65-4341-af4c-a9c9e52f0d43")
+	)
+	(wire
+		(pts
+			(xy 118.872 216.916) (xy 120.142 216.916)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afef38a1-faf3-41c1-9faf-aa3792d84af7")
+	)
+	(wire
+		(pts
+			(xy 249.682 133.35) (xy 250.952 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04db845-c88c-45c9-87d9-48b5e13c87d0")
+	)
+	(wire
+		(pts
+			(xy 184.658 133.35) (xy 185.928 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b534ec-80bd-455a-af66-dda6b3b56b5e")
+	)
+	(wire
+		(pts
+			(xy 91.44 133.604) (xy 91.44 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c9799f-3618-4386-b91c-99375a9f62b4")
+	)
+	(wire
+		(pts
+			(xy 200.914 133.858) (xy 202.184 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ebdb5b-d2a5-400b-ac61-c8cf39dc5a2d")
+	)
+	(wire
+		(pts
+			(xy 58.928 27.432) (xy 58.928 29.718)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a65450-d84a-4bb8-8eb2-32238029d7d9")
+	)
+	(wire
+		(pts
+			(xy 146.304 127.762) (xy 146.304 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b577b5-69f7-4621-96b0-0fb826209b7c")
+	)
+	(wire
+		(pts
+			(xy 215.138 133.35) (xy 216.408 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91e5b12-b28f-4161-a4d2-cb56813453d3")
+	)
+	(wire
+		(pts
+			(xy 61.976 133.604) (xy 60.96 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb309773-91af-4ba5-ab40-0b213e99efb4")
+	)
+	(wire
+		(pts
+			(xy 26.924 216.408) (xy 28.194 216.408)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbea8b41-e880-4e1e-aa15-f7c600746f28")
+	)
+	(wire
+		(pts
+			(xy 163.322 128.016) (xy 163.322 129.794)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf07359-fa24-4cd7-b0ca-859efe43c275")
+	)
+	(wire
+		(pts
+			(xy 113.284 128.27) (xy 113.284 130.048)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b54733-26cd-4369-9648-320574e885c9")
+	)
+	(wire
+		(pts
+			(xy 168.402 133.604) (xy 168.402 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad7922c-17fb-4268-8341-de5ed694f5f3")
+	)
+	(wire
+		(pts
+			(xy 134.62 133.604) (xy 135.89 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd67b256-ce64-4137-a556-dc5f523ff712")
+	)
+	(wire
+		(pts
+			(xy 142.494 133.35) (xy 141.478 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf96dff6-df41-4d29-9681-d39a8460daad")
+	)
+	(wire
+		(pts
+			(xy 68.072 248.412) (xy 67.31 248.412)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cffb9f-f258-4ded-9a9e-b68e1c89c7d0")
+	)
+	(wire
+		(pts
+			(xy 141.478 133.35) (xy 141.478 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f85b01-1d3d-47b9-ae51-9654f4c7d7b4")
+	)
+	(wire
+		(pts
+			(xy 43.434 133.858) (xy 43.434 134.112)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67b6459-fba6-4003-ad9b-1cb85d83acbe")
+	)
+	(wire
+		(pts
+			(xy 241.046 133.35) (xy 241.046 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc09d65f-5046-469a-99d6-cc69728cfffa")
+	)
+	(wire
+		(pts
+			(xy 176.022 133.35) (xy 176.022 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded884ad-3eee-4ebb-a53d-8848374a5693")
+	)
+	(wire
+		(pts
+			(xy 69.596 133.604) (xy 70.866 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c495cb-b2e7-4ff6-bb84-09a9c6c4c6cb")
+	)
+	(wire
+		(pts
+			(xy 197.104 128.27) (xy 197.104 130.048)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e123cb2b-fbfd-45c5-bef0-02d878b14aaf")
+	)
+	(wire
+		(pts
+			(xy 116.84 35.306) (xy 116.84 29.972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ab1145-d86c-4385-a858-3565ae4516db")
+	)
+	(wire
+		(pts
+			(xy 56.642 245.872) (xy 57.15 245.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87d002b-9024-4cfc-bb9b-6d61263650a4")
+	)
+	(wire
+		(pts
+			(xy 82.042 128.524) (xy 82.042 130.302)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91946b6-7d7a-4127-82e8-4ef9d08a9093")
+	)
+	(wire
+		(pts
+			(xy 38.354 216.408) (xy 39.624 216.408)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec414281-1fb1-4191-b694-7540cefc83b0")
+	)
+	(wire
+		(pts
+			(xy 85.852 134.112) (xy 87.122 134.112)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1995bf-1d70-4446-ba0e-920624c72a20")
+	)
+	(wire
+		(pts
+			(xy 185.928 133.35) (xy 185.928 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f120e375-f539-4ba2-ab4e-10116f21a01a")
+	)
+	(polyline
+		(pts
+			(xy 11.938 98.044) (xy 408.178 98.044)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f2d7013f-5d1a-456f-809b-1f78d2479ef1")
+	)
+	(wire
+		(pts
+			(xy 193.294 133.858) (xy 192.278 133.858)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7bb6bd2-8435-439b-9790-6192396278cb")
+	)
+	(wire
+		(pts
+			(xy 27.432 133.604) (xy 26.416 133.604)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7cccc0-b466-4842-849b-3d90f26acdcf")
+	)
+	(global_label "J1"
+		(shape input)
+		(at 54.356 216.662 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "012f60c8-1fda-42ea-8ed6-c5a557261b74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.1937 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I4"
+		(shape input)
+		(at 96.266 128.016 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01bca18c-bf28-46db-9008-a56e92162891")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.266 123.2165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 60.96 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03ca1039-406d-4373-a377-30a31d177366")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 140.7137 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J9"
+		(shape input)
+		(at 114.3 40.386 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06bb74bf-5986-4dc9-a1dd-1e14983164b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4623 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 175.768 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08c104d1-8be2-4cfb-868a-ea645d0da958")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.6237 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S2"
+		(shape input)
+		(at 114.3 60.706 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "132fb3b4-945b-4f9e-baef-957cd04c6629")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.05 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 250.952 133.604 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1558d33f-9610-4566-8575-6c1affc1f9d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.952 140.7016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J8"
+		(shape input)
+		(at 68.072 243.332 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15e99740-d2d1-4ea3-b8a9-0d41b9567c3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.2343 243.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J15"
+		(shape input)
+		(at 114.3 55.626 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16698f3d-dca8-4d3d-95b6-6c3189df841c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6718 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 116.84 27.686 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16f7cab6-7f89-474d-98ae-1e19490e19a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 20.5884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 121.92 29.972 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "195b53f5-3af4-4069-a034-011d9771f519")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.7757 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 192.278 134.112 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19ca2190-9e65-4568-a47d-1fd59759d771")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.278 140.9677 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I13"
+		(shape input)
+		(at 245.872 127.762 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19f390b7-8ab1-41be-accd-b954e0bc76d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.872 121.753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I1"
+		(shape input)
+		(at 30.988 52.832 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cc0e3fe-3514-4d25-a2e2-c04b5bdd905e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1885 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 87.122 134.366 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d5682d0-14dd-46b9-b407-ebdbf593f47f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.122 141.4636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J4"
+		(shape input)
+		(at 135.636 216.916 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ef9af8b-e605-4e3a-8d1d-300a48fd9a87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.4737 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I6"
+		(shape input)
+		(at 30.988 40.132 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26156d7d-cad7-4d21-8705-44dc5c17d973")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1885 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I10"
+		(shape input)
+		(at 197.104 128.27 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "271479bf-525d-493e-a751-75b2b9b28b13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.104 122.261 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 56.388 57.912 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d669229-6a92-48b1-aabd-5cc7dffd0878")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.2437 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J11"
+		(shape input)
+		(at 114.3 45.466 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2eb159f9-9f54-4900-84af-aadb18cbdd9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6718 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3"
+		(shape input)
+		(at 56.388 62.992 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31c4e845-6653-4001-aa15-7bc7cb7a35d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.138 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 135.89 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39f60b68-e321-41ad-91b1-dcf2ecd3cff7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 140.9556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 141.478 133.604 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b24f337-5bd9-496c-b2b3-d798b66b2b84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.478 140.4597 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 202.184 134.112 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d7eca5d-aa45-4978-bd47-357285b702a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.184 141.2096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 91.44 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e5e8239-06c3-481c-a1bc-80142ae1b903")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 140.7137 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 114.3 58.166 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f3798f0-4dde-4439-b9ac-50ea01ced866")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.1557 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3"
+		(shape input)
+		(at 114.3 63.246 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "431faf06-3095-4357-8206-76311b1dca15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.05 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I0"
+		(shape input)
+		(at 30.988 55.372 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43383847-64db-4593-aaa2-27237713b46b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1885 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I7"
+		(shape input)
+		(at 30.988 37.592 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4492636f-35df-42ad-86a1-4f9390fee54d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1885 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J2"
+		(shape input)
+		(at 80.01 216.662 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b71c4cf-cd3c-4668-a24d-b705249d0a9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.8477 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2"
+		(shape input)
+		(at 65.786 128.016 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bf992f1-aa5d-4816-9489-77b5a20c8cc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.786 123.2165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I10"
+		(shape input)
+		(at 56.388 42.672 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "518fc905-fbcb-4403-8398-b647188dac0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.397 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 148.336 216.916 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5614580c-22e5-4a21-b03d-44ed459ba779")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.1917 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 101.346 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "591f169d-4a2f-4a7d-b625-5bebec585bb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.346 140.9556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I5"
+		(shape input)
+		(at 113.284 128.27 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59f8763d-c89f-49a2-bd24-3b02dcd6445e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.284 123.4705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2"
+		(shape input)
+		(at 30.988 50.292 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "601273a4-086d-4225-9b62-bf2e73e4b868")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1885 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I13"
+		(shape input)
+		(at 56.388 50.292 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "646ce3ee-673e-4eb0-8fc3-8683b7c36022")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.397 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 39.624 216.408 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65c0b3c2-f63c-446a-b315-289263fa75e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.4797 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I9"
+		(shape input)
+		(at 180.848 127.762 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "664fad7f-b267-4f2d-9a88-db4b154f43ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.848 122.9625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J3"
+		(shape input)
+		(at 107.442 216.916 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66d521e9-ac33-4ae1-9974-3148232be6ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.2797 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J7"
+		(shape input)
+		(at 42.164 248.412 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a57d388-1a11-4286-84ab-df4afb529d31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.3263 248.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 125.984 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b25254b-4cc4-4205-ac51-330aca75d23d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.984 140.7137 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J10"
+		(shape input)
+		(at 114.3 42.926 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d5f1b35-ddd1-45ca-a27f-f8eaa952ea46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6718 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 43.434 134.112 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "759cf5c1-bf82-4830-881d-3298378a0b29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.434 140.9677 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J14"
+		(shape input)
+		(at 114.3 53.086 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c3a17ff-10b4-4fd0-a98d-792ca1b54898")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6718 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 70.866 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f67ecdf-c257-427e-ac66-d68087ae0485")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.866 140.9556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I15"
+		(shape input)
+		(at 56.388 55.372 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "808021f5-5370-419f-a332-0a0a83a6e0fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.397 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 30.988 62.992 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81034a69-7138-40e7-8443-211760ef958f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.1323 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J1"
+		(shape input)
+		(at 88.9 53.086 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81e046fd-8829-4e7a-a9c7-e39c0e1273a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.7377 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "sig_1"
+		(shape input)
+		(at 30.988 35.052 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82fa66d4-fb90-4174-a106-d3ec3219efbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.0438 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 241.046 133.604 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84751cd7-f9fb-43af-ae0f-57d59a15385e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.046 140.4597 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "sig_2"
+		(shape input)
+		(at 88.9 35.306 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85fb1f31-9a61-4653-bde2-a725c526dfb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.9558 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 168.402 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86746250-7676-4c67-b6be-62c727474336")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.402 140.9556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S0"
+		(shape input)
+		(at 30.988 57.912 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "869c3f63-8304-4f90-a3dc-ea74cb3c442e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.238 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I11"
+		(shape input)
+		(at 211.328 127.762 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a455f22-32f9-44b6-a28b-476b0e54aff8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.328 121.753 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 36.322 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cb3316b-d575-47ab-ae27-e84587d21a8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.322 140.9556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I3"
+		(shape input)
+		(at 82.042 128.524 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cf6b0a3-b6d3-492a-9cc2-aefb6ff6a089")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.042 123.7245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 206.502 133.604 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d88307a-5e61-40d3-9c8e-1f574e68b213")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.502 140.4597 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 158.496 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d8fdc38-b9fa-4c49-8d53-8740b5852be7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.496 140.7137 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J2"
+		(shape input)
+		(at 88.9 50.546 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e9cf58a-2672-445b-9bcb-07c3baa16a45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.7377 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J5"
+		(shape input)
+		(at 163.068 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8eaa8efc-1f08-453a-9415-123d83f6881c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.9057 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 77.216 134.366 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9192ffe8-3ac4-4ffb-bad8-2660db05fa81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.216 141.2217 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I3"
+		(shape input)
+		(at 30.988 47.752 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "973f4d32-cfcc-4d73-9bc1-8026fd8a5963")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1885 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 176.022 133.604 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99f28cf0-e32b-4bfe-ba5c-a80c68e4845c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.022 140.4597 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J8"
+		(shape input)
+		(at 114.3 37.846 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9dc61ff3-50ea-40ad-a175-7e7f8fac0c74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4623 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1"
+		(shape input)
+		(at 30.988 60.452 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f878a95-6123-45d4-a9de-ccf1c6d58f8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.238 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I4"
+		(shape input)
+		(at 30.988 45.212 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0a281bc-1969-46b6-8ed7-4ce26626622b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1885 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J3"
+		(shape input)
+		(at 88.9 48.006 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0d2b896-860e-46d4-be81-d2ba3045f3e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.7377 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I5"
+		(shape input)
+		(at 30.988 42.672 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a17e02b6-cc8f-48e8-9682-b4e77687a02c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1885 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 53.34 134.112 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a268abc1-65b1-41da-8daa-41ceca272953")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 141.2096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J9"
+		(shape input)
+		(at 68.072 248.412 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7262b8d-ddcb-4572-9b96-884620120a93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.2343 248.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 120.142 216.916 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa722690-90ae-4a3f-ae45-84049a7868b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.9977 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 58.928 27.432 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab5132db-a8ad-43f3-a883-3ce199b30ac5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.928 20.3344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I14"
+		(shape input)
+		(at 56.388 52.832 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac169639-053c-4c3a-afc2-75289aea1489")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.397 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I8"
+		(shape input)
+		(at 163.322 128.016 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9df57b5-7d1f-4b9d-aa28-d888e4737d18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.322 123.2165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I12"
+		(shape input)
+		(at 56.388 47.752 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc9ef058-d002-4cfd-a3b0-7d3e57a4f232")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.397 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J0"
+		(shape input)
+		(at 26.924 216.408 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c27577d4-42e5-4b15-830b-3894a5dbff1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.7617 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I11"
+		(shape input)
+		(at 56.388 45.212 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2b0f4ce-82b0-41a7-a418-efcd00c10319")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.397 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J12"
+		(shape input)
+		(at 114.3 48.006 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2c9a6e9-fecf-4a8e-b6ae-0781273fae68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6718 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 56.642 245.872 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2ce4e88-544c-41e4-aa1f-233ad1b2612d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.7863 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J6"
+		(shape input)
+		(at 42.164 243.332 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c462027f-b37b-4a52-8f84-89b3969e56f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.3263 243.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J6"
+		(shape input)
+		(at 88.9 40.386 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4f96224-9db0-4379-9696-291fe7e87fba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.7377 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 64.008 29.718 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c55559aa-2619-42b9-94eb-2e24c967829c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.8637 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I7"
+		(shape input)
+		(at 146.304 127.762 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9765382-a20b-42ec-9739-25ced64036f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.304 122.9625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J4"
+		(shape input)
+		(at 88.9 45.466 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc6f4923-eac9-4c41-bc39-7f292507b09f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.7377 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J7"
+		(shape input)
+		(at 88.9 37.846 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d099a253-6457-44d4-80b9-66ee771d5800")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.7377 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I8"
+		(shape input)
+		(at 56.388 37.592 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5e0fb93-a5d0-46ab-9846-aea999525d8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.1875 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J5"
+		(shape input)
+		(at 88.9 42.926 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5e4c34c-0053-412a-aa6d-49b901eb5b5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.7377 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I6"
+		(shape input)
+		(at 130.81 128.016 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6dd849f-3119-45da-bec0-4749be13ac5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 123.2165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S2"
+		(shape input)
+		(at 56.388 60.452 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7f85135-f9e8-47e8-9936-a02c232e5254")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.138 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 88.9 63.246 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d873a1f5-d0fc-4f35-88dd-103e0fca2596")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.0443 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I0"
+		(shape input)
+		(at 31.242 128.016 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da13d9fc-467e-4cde-be72-846e0fa8f2bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.242 123.2165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1"
+		(shape input)
+		(at 88.9 60.706 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcef44da-4a51-422a-abf6-dda3a275bf43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.15 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 151.384 133.604 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dda37a19-63a2-44d8-8d73-599e12e12813")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.384 140.7016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I1"
+		(shape input)
+		(at 48.26 128.27 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfb2a257-b311-47d1-b7d2-feb4500e89f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 123.4705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 223.52 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1a011c5-04b2-4ad8-a658-0a2a1461410d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.52 140.7137 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 26.416 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1f9f31f-12a8-4453-b652-98ac88948f7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.416 140.7137 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J0"
+		(shape input)
+		(at 88.9 55.626 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2fe53f0-ef36-4997-8f2e-d8367a7ca419")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.7377 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 185.928 133.604 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e313db84-28e0-4bdb-9edd-0f20575600df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.928 140.7016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 233.426 133.858 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3d6e467-33f5-4f49-9dc8-24081fb6da13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.426 140.9556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 30.734 245.872 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e41460b0-3e94-41ea-ae08-0740ce828292")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.8783 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I12"
+		(shape input)
+		(at 228.346 128.016 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4afd01a-ca7d-4bad-89ed-a765888481ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.346 122.007 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 92.71 216.662 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5ce4418-1cd5-4b4e-9d85-626d1f992732")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.5657 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S0"
+		(shape input)
+		(at 88.9 58.166 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7822a77-7b90-4777-94ad-ee1d72a2cb5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.15 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "J13"
+		(shape input)
+		(at 114.3 50.546 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed1c658d-227d-4c1f-99b7-3be34c907ac2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6718 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 216.408 133.604 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edc96ee8-a373-41f8-a69b-fcff5815e6e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.408 140.7016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 118.364 134.112 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef02e0f8-05ed-4819-a143-48d738d6fea0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.364 141.2096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I9"
+		(shape input)
+		(at 56.388 40.132 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efd94f1a-2bd0-4dcb-935f-98abc7742da2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.1875 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 67.056 216.662 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f58f96ad-3f08-481f-ad21-33ae3e1c7c3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.9117 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 108.458 134.112 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6b8a4cf-dc9e-43b4-9e1a-85e64bf7ce91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.458 140.9677 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Theo-rescue:CD74HC4067M_2-74xx")
+		(at 43.688 51.562 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060a8c387")
+		(property "Reference" "MUX1"
+			(at 43.688 28.2702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4067BMT/TR"
+			(at 43.688 30.5816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+			(at 66.548 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
+			(at 34.798 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C7432333"
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 43.688 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b822ea8-dcac-4907-92e3-43a7e2f434df")
+		)
+		(pin "10"
+			(uuid "72763f9a-40d6-43c0-9382-e604723aee95")
+		)
+		(pin "11"
+			(uuid "96364452-8ba2-4d20-a4fe-5708e659417d")
+		)
+		(pin "12"
+			(uuid "c2b0f968-26e8-4fbb-aff4-add15159ffd0")
+		)
+		(pin "13"
+			(uuid "20e58f75-cf26-487f-a38c-c059fde7b784")
+		)
+		(pin "14"
+			(uuid "4fa89fb3-db03-4ab5-bc29-a43effb952ff")
+		)
+		(pin "15"
+			(uuid "3d8f71e0-d093-4c9a-9109-d24b2fbf80aa")
+		)
+		(pin "16"
+			(uuid "ae3355ef-2a3c-4da4-8b5b-4766bd3ee962")
+		)
+		(pin "17"
+			(uuid "46a0126e-5c1c-48cb-9aee-544f14bf794c")
+		)
+		(pin "18"
+			(uuid "73d0c72b-357f-4604-b267-5bdebedddedb")
+		)
+		(pin "19"
+			(uuid "c30c9330-515a-4cc1-927b-f70eccbd4cf1")
+		)
+		(pin "2"
+			(uuid "a5efc530-0408-4f68-85f0-e66a21ceba46")
+		)
+		(pin "20"
+			(uuid "abf0142c-5615-43ef-9082-ef07c4c67352")
+		)
+		(pin "21"
+			(uuid "f4bad54f-b66b-46e9-9480-d0493485890c")
+		)
+		(pin "22"
+			(uuid "4aee0e48-28a2-438b-891c-8ebdb1c938ac")
+		)
+		(pin "23"
+			(uuid "34b62308-ecdd-4cf8-9782-e54bbe23f575")
+		)
+		(pin "24"
+			(uuid "9c986ed3-06e5-4613-b3dc-47893045b555")
+		)
+		(pin "3"
+			(uuid "067ffb62-82ff-4cb9-8da4-0c7676aa2b0c")
+		)
+		(pin "4"
+			(uuid "b768ffd3-a83d-4f61-aa01-798d7c8d2339")
+		)
+		(pin "5"
+			(uuid "0f11dd0a-48d7-4f88-bf8b-79414de9678e")
+		)
+		(pin "6"
+			(uuid "3d239783-ed8f-41e1-89d0-9c9d51421a03")
+		)
+		(pin "7"
+			(uuid "2e13010f-6a2d-47c2-8efa-d8ac0701468b")
+		)
+		(pin "8"
+			(uuid "45b9af44-448f-4b42-aefc-413b7e98cc75")
+		)
+		(pin "9"
+			(uuid "8687f21b-3668-4b84-ba4c-b3c2ed4c7cba")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "MUX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 61.468 29.718 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060a8c392")
+		(property "Reference" "C1"
+			(at 65.278 23.368 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 64.008 25.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525"
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 61.468 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36440204-a9d9-45d6-b908-3c53942da04c")
+		)
+		(pin "2"
+			(uuid "6dada47b-1058-4fc3-bb67-05c637f6805a")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 211.328 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0177f915-9501-40f0-a605-f018a9e8c2dc")
+		(property "Reference" "pot12"
+			(at 211.328 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 211.328 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 211.328 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "22ad3d7f-e315-425a-bbd6-194d0dccbbc6")
+		)
+		(pin "1"
+			(uuid "2639c89c-ccca-49de-b2d2-29ed27659185")
+		)
+		(pin "3"
+			(uuid "f3b0a141-4cf0-4c88-88c6-8def350a3f36")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 33.274 216.408 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d6daef-3bf3-4e2f-87bc-fef9e587ed07")
+		(property "Reference" "toggle_sw_2p-1"
+			(at 33.274 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "toggle_sw_2p"
+			(at 33.274 212.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Toggle_Switch-2-pins"
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 33.274 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "770a9a1f-21b1-45e8-b3af-e79fa24dc571")
+		)
+		(pin "2"
+			(uuid "8d0d895e-6cf8-4536-9989-08628ff04629")
+		)
+		(instances
+			(project "Drawmer-DS-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "toggle_sw_2p-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Theo-rescue:CD74HC4067M_2-74xx")
+		(at 101.6 51.816 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bb83c7f-403b-453a-8b36-9c2651ef4d14")
+		(property "Reference" "MUX2"
+			(at 101.6 28.5242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4067BMT/TR"
+			(at 101.6 30.8356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+			(at 124.46 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
+			(at 92.71 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C7432333"
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 101.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b78f203c-ab4b-40ab-8fc4-20c76ea736c0")
+		)
+		(pin "10"
+			(uuid "93b14f48-de99-427f-b32a-fc10e6bc4635")
+		)
+		(pin "11"
+			(uuid "daab330c-6d04-4717-8943-c3157ec6e1a0")
+		)
+		(pin "12"
+			(uuid "9fbcf089-1f3a-4f73-a71d-527163a379b1")
+		)
+		(pin "13"
+			(uuid "60449829-2a1c-4c47-9e79-52d924a9fe85")
+		)
+		(pin "14"
+			(uuid "16cfd081-5428-4bbf-b2ec-ead7ceb227ea")
+		)
+		(pin "15"
+			(uuid "747e338a-173d-4180-9d82-d1a145e1bd33")
+		)
+		(pin "16"
+			(uuid "b964b300-2983-4ec5-a2f7-033d46470280")
+		)
+		(pin "17"
+			(uuid "07700dfa-7c64-4902-abec-d18269bf4306")
+		)
+		(pin "18"
+			(uuid "9843715b-15dc-4931-a3c8-8ee0bca17fa5")
+		)
+		(pin "19"
+			(uuid "74d90b4b-91fd-4b85-98b4-f96c6438b5e1")
+		)
+		(pin "2"
+			(uuid "8fe619c6-0e6c-4a24-a981-370470701539")
+		)
+		(pin "20"
+			(uuid "32a07931-5c02-46df-bd3c-ea1a489c0df5")
+		)
+		(pin "21"
+			(uuid "165ee2f0-5c10-4592-b743-04b628cf8a99")
+		)
+		(pin "22"
+			(uuid "9b65df87-3ae9-4ca1-b36b-85410fd974c5")
+		)
+		(pin "23"
+			(uuid "c09bae6f-47e3-4ce7-91e9-a12b3570eaf5")
+		)
+		(pin "24"
+			(uuid "ad97bb9f-1377-4ef1-9c4c-de5168a17613")
+		)
+		(pin "3"
+			(uuid "717cc10a-efa5-4a7f-b1d5-0c46f42e2c9e")
+		)
+		(pin "4"
+			(uuid "cf7b31aa-3803-4fcc-b4ec-502e9d5d2251")
+		)
+		(pin "5"
+			(uuid "489e854f-72a7-498a-8361-ba2aa2cf3a20")
+		)
+		(pin "6"
+			(uuid "0e57aec5-27c7-4ae3-bce7-ab408f69a4e4")
+		)
+		(pin "7"
+			(uuid "5628adbf-9ef0-4d3c-a6d2-111f12e4af72")
+		)
+		(pin "8"
+			(uuid "eddcc0c2-d4b0-4ba6-93f8-0aa4c177d52a")
+		)
+		(pin "9"
+			(uuid "351b6425-fc99-4305-be1f-3eecfa6ede6d")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "MUX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 245.872 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11abe80e-0867-46e4-bec0-953780e01b60")
+		(property "Reference" "pot14"
+			(at 245.872 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 245.872 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 245.872 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ff1c6fe-f422-4170-8c7b-fa90ec916979")
+		)
+		(pin "1"
+			(uuid "a89ba531-31d0-457a-ae6f-0ba9ed8b2381")
+		)
+		(pin "3"
+			(uuid "bff89036-be02-432c-85f5-714db6db8640")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 113.792 216.916 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "155f2298-de69-4a59-99cd-f9b6e3b38368")
+		(property "Reference" "toggle_sw_2p-4"
+			(at 113.792 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "toggle_sw_2p"
+			(at 113.792 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Toggle_Switch-2-pins"
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 113.792 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1941e155-6b2f-4f88-bbfe-f60ea3ec4069")
+		)
+		(pin "2"
+			(uuid "b96aa892-cc33-45c9-a6f1-d2b3bba7262b")
+		)
+		(instances
+			(project "Drawmer-DS-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "toggle_sw_2p-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_SPDT")
+		(at 36.322 245.872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18258a35-b0e9-4730-b6a9-820ef5084717")
+		(property "Reference" "toggle_sw_3p-1"
+			(at 36.322 236.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "toggle_sw_3p"
+			(at 36.322 239.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Toggle_Switch-3-pins"
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, single pole double throw"
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 36.322 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3af72f1f-d43a-4bc9-a4cf-ae5f4b5294ef")
+		)
+		(pin "1"
+			(uuid "6e7f2ac5-aea8-45e5-b290-9b60c823235a")
+		)
+		(pin "3"
+			(uuid "21a74906-bc7d-4f75-8a30-bc1784e4505c")
+		)
+		(instances
+			(project "Drawmer-DS-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "toggle_sw_3p-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 119.38 29.972 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e30e7af-aae8-4fb5-ae3a-c55a9119ba32")
+		(property "Reference" "C2"
+			(at 123.19 23.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 121.92 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525"
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 119.38 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1accc710-9e8e-4c48-b734-6ad78608f7a7")
+		)
+		(pin "2"
+			(uuid "852c3c2f-c13a-4734-a762-f2c80943a9a6")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 86.36 216.662 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac47569-dad4-4ee9-8bee-87dc8c683e2f")
+		(property "Reference" "toggle_sw_2p-3"
+			(at 86.36 210.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "toggle_sw_2p"
+			(at 86.36 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Toggle_Switch-2-pins"
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 86.36 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d41f04d-0985-4216-b1ae-1c75b5907ada")
+		)
+		(pin "2"
+			(uuid "eaedbbf3-fbd8-42d7-b0a4-70d1d5eaaf95")
+		)
+		(instances
+			(project "Drawmer-DS-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "toggle_sw_2p-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 197.104 133.858 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f9f7a66-49db-49e7-b115-eb378c7d0c64")
+		(property "Reference" "pot11"
+			(at 197.104 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 197.104 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 197.104 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f8e9cb0-098d-402e-ad05-e60804cc4c70")
+		)
+		(pin "1"
+			(uuid "c5834204-bd9f-4ac3-bf1f-6a04aba1c682")
+		)
+		(pin "3"
+			(uuid "9bdd9be1-3139-455d-a104-fba61fba06cc")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 141.986 216.916 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5717fc09-400a-4a00-ba5e-730d4098deee")
+		(property "Reference" "toggle_sw_2p-5"
+			(at 141.986 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "toggle_sw_2p"
+			(at 141.986 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Toggle_Switch-2-pins"
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 141.986 216.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51929643-6848-48c5-bf80-0c5231ca8d71")
+		)
+		(pin "2"
+			(uuid "ec3a7328-1032-4d67-bd74-3f210be7d1a7")
+		)
+		(instances
+			(project "Drawmer-DS-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "toggle_sw_2p-5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 48.26 133.858 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "595211df-e836-4ce7-a86f-d9c6c74b76f5")
+		(property "Reference" "pot2"
+			(at 48.26 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 48.26 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 48.26 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "667b8c30-14db-461f-a9f9-775878cb9374")
+		)
+		(pin "1"
+			(uuid "726a1278-a0e4-4524-a076-408efa4c348c")
+		)
+		(pin "3"
+			(uuid "9b862c4c-663b-4148-b04c-02ad3ce855b0")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 65.786 133.604 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d2cc968-8334-4f75-880d-0cd8882c4180")
+		(property "Reference" "pot3"
+			(at 65.786 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 65.786 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 65.786 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2e36a63e-dcfd-4953-b453-66fcc61887f9")
+		)
+		(pin "1"
+			(uuid "f54c4809-cd45-4469-843a-0fd0bfd56395")
+		)
+		(pin "3"
+			(uuid "711897ba-b33c-488d-9232-1578e50ecdbe")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 96.266 133.604 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ba82a6-1832-4d46-bb42-4cb286cb66fd")
+		(property "Reference" "pot5"
+			(at 96.266 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 96.266 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 96.266 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9589e427-1763-4f3d-8c15-5e59a4349e7c")
+		)
+		(pin "1"
+			(uuid "ef972903-660c-4e0b-9a6e-41669d4a9960")
+		)
+		(pin "3"
+			(uuid "06697b7a-7657-4bc1-acaf-7e7310c96f22")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 228.346 133.604 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65db93a0-7673-408a-b68d-bdcde52f1699")
+		(property "Reference" "pot13"
+			(at 228.346 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 228.346 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 228.346 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3a9e2ec0-266a-4786-bf6f-5236776292f7")
+		)
+		(pin "1"
+			(uuid "e84e8c6b-e725-42dd-9fe8-8cfa1f8d86ae")
+		)
+		(pin "3"
+			(uuid "e0ec58b4-aad4-41b7-bc7e-3f5c33967a6d")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 60.706 216.662 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bd60936-de45-4527-9338-e3e8634c782c")
+		(property "Reference" "toggle_sw_2p-2"
+			(at 60.706 210.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "toggle_sw_2p"
+			(at 60.706 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Toggle_Switch-2-pins"
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 60.706 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed982b91-9405-417c-a96b-87b030bc6de0")
+		)
+		(pin "2"
+			(uuid "f4563540-1ebc-482d-9058-9b94519f3fe2")
+		)
+		(instances
+			(project "Drawmer-DS-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "toggle_sw_2p-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_SPDT")
+		(at 62.23 245.872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c04e6df-0c50-4c75-99a5-b919e6fe52f7")
+		(property "Reference" "toggle_sw_3p-2"
+			(at 62.23 236.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "toggle_sw_3p"
+			(at 62.23 239.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Toggle_Switch-3-pins"
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, single pole double throw"
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 62.23 245.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "63c445f4-cb34-485e-89da-52bdb8f061a8")
+		)
+		(pin "1"
+			(uuid "086f1ff6-bcb1-4d81-add2-a92c5437059e")
+		)
+		(pin "3"
+			(uuid "45738f50-bd11-4b57-80c2-7f6c170976a4")
+		)
+		(instances
+			(project "Drawmer-DS-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "toggle_sw_3p-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 146.304 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cb2b8a6-a434-4f97-9224-f9ec81f07870")
+		(property "Reference" "pot8"
+			(at 146.304 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 146.304 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 146.304 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ee6d0aff-ed73-4292-9008-c218988d4dfa")
+		)
+		(pin "1"
+			(uuid "d32b46e3-c47a-47e3-81c2-328dfffacc56")
+		)
+		(pin "3"
+			(uuid "223cde21-1302-4830-8545-393bdde911a9")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 180.848 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1a97c50-de32-46b7-99b2-1498cbde61f0")
+		(property "Reference" "pot10"
+			(at 180.848 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 180.848 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 180.848 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1196cef1-7afa-4037-b664-1fa09cfdb61b")
+		)
+		(pin "1"
+			(uuid "5f47665d-8148-4ec6-b7dc-9731cd06a96b")
+		)
+		(pin "3"
+			(uuid "07d4877b-92c4-4c8d-b4dd-2385a98b5e34")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 31.242 133.604 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13b36be-f1ff-4162-91eb-2da872bd9465")
+		(property "Reference" "pot1"
+			(at 31.242 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 31.242 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 31.242 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e27a9663-0cba-4282-a5a2-275c589fc98b")
+		)
+		(pin "1"
+			(uuid "c6eec3b8-a161-4b40-925c-bf290dde1fad")
+		)
+		(pin "3"
+			(uuid "40387823-b4f1-4a68-904c-e1bb23466d43")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 163.322 133.604 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba983469-956b-4c62-bac2-57dd70728eae")
+		(property "Reference" "pot9"
+			(at 163.322 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 163.322 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 163.322 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b6f48a7-5b6e-4275-9f65-818c2323a0ff")
+		)
+		(pin "1"
+			(uuid "bbb6e656-89bd-440a-b87c-8e69f913847a")
+		)
+		(pin "3"
+			(uuid "17e33970-eeda-496f-8d10-62902257d9b1")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 82.042 134.112 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bae0341f-b2b2-44e5-af50-b3332980cf6a")
+		(property "Reference" "pot4"
+			(at 82.042 137.922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 82.042 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 82.042 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a1f4ef05-05d6-4e88-8758-218355069dd0")
+		)
+		(pin "1"
+			(uuid "8aa6d0e8-9065-4230-a701-aca39ed6d6a9")
+		)
+		(pin "3"
+			(uuid "192b7334-775b-444f-bec0-ce4ad592a1c7")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 169.418 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1ad7e50-89cb-4f47-9bde-359bfec54b82")
+		(property "Reference" "toggle_sw_2p-6"
+			(at 169.418 211.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "toggle_sw_2p"
+			(at 169.418 213.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:Toggle_Switch-2-pins"
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 169.418 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b91db0a0-ea92-4b35-aca8-45453c02dbce")
+		)
+		(pin "2"
+			(uuid "9f551009-ee3d-444d-bf09-98d069b8dcf2")
+		)
+		(instances
+			(project "Drawmer-DS-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "toggle_sw_2p-6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 113.284 133.858 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6d6e6de-cfdc-478e-9057-e0943d432b47")
+		(property "Reference" "pot6"
+			(at 113.284 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 113.284 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 113.284 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c53db11d-946c-4501-ac0b-97adca6dca21")
+		)
+		(pin "1"
+			(uuid "b66ea543-9f79-4c80-9170-bea040f000b2")
+		)
+		(pin "3"
+			(uuid "6e1360f3-84b0-492d-a08c-7ec534ccdf22")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 130.81 133.604 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cab573cf-25b0-4cc0-a976-7996413165b0")
+		(property "Reference" "pot7"
+			(at 130.81 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "b10k"
+			(at 130.81 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 130.81 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b76255b9-1676-40ca-9ea1-3eaa846cd330")
+		)
+		(pin "1"
+			(uuid "e6caf4ce-4b73-4cbf-91ef-7d56b04fd014")
+		)
+		(pin "3"
+			(uuid "6682a3f1-fa40-4c35-97a2-d1f7131e4aea")
+		)
+		(instances
+			(project "Drawmer-ds-201"
+				(path "/2d06d076-c0b7-4f16-9cb6-817d18d39e88/2742bb2a-95be-4adb-bc27-98de86622c16"
+					(reference "pot7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

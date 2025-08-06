@@ -1,0 +1,153 @@
+** Drc report for Drawmer-DS-201.kicad_pcb **
+** Created on 2025-06-07T10:23:15+0300 **
+
+** Found 34 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'digikey-footprints'.
+    Local override; warning
+    @(291.2465 mm, 76.8635 mm): Footprint toggle_sw_2p-3
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(430.8145 mm, 86.8305 mm): Footprint pot12
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(289.9585 mm, 92.0685 mm): Footprint LED2
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(163.3115 mm, 86.8295 mm): Footprint pot3
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(501.2725 mm, 92.0675 mm): Footprint LED4
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(133.3165 mm, 86.8305 mm): Footprint pot2
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(375.8155 mm, 86.8305 mm): Footprint pot10
+[lib_footprint_issues]: The current configuration does not include the footprint library 'digikey-footprints'.
+    Local override; warning
+    @(179.4335 mm, 72.6485 mm): Footprint toggle_sw_2p-2
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(193.3065 mm, 86.8295 mm): Footprint pot4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'digikey-footprints'.
+    Local override; warning
+    @(332.0265 mm, 72.6485 mm): Footprint toggle_sw_2p-4
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(224.5545 mm, 73.0715 mm): Footprint LED6
+[lib_footprint_issues]: The current configuration does not include the footprint library 'digikey-footprints'.
+    Local override; warning
+    @(390.6585 mm, 72.6485 mm): Footprint toggle_sw_2p-5
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(217.0395 mm, 73.0715 mm): Footprint LED5
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(456.3025 mm, 86.8305 mm): Footprint pot13
+[lib_footprint_issues]: The current configuration does not include the footprint library 'digikey-footprints'.
+    Local override; warning
+    @(471.3575 mm, 72.6485 mm): Footprint toggle_sw_3p-2
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(218.3095 mm, 86.8305 mm): Footprint pot5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'digikey-footprints'.
+    Local override; warning
+    @(502.5605 mm, 77.3415 mm): Footprint toggle_sw_2p-6
+[lib_footprint_issues]: The current configuration does not include the footprint library 'digikey-footprints'.
+    Local override; warning
+    @(118.5265 mm, 72.6475 mm): Footprint toggle_sw_2p-1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(103.3045 mm, 86.8305 mm): Footprint pot1
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(422.0375 mm, 73.0715 mm): Footprint LED3
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(209.5255 mm, 73.0715 mm): Footprint LED1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(243.3205 mm, 86.8305 mm): Footprint pot6
+[lib_footprint_mismatch]: Footprint 'TSSOP-24_4.4x7.8mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(178.5740 mm, 83.8585 mm): Footprint MUX2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Espressif'.
+    Local override; warning
+    @(143.6035 mm, 91.3835 mm): Footprint ESP32-S3-1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(273.3075 mm, 86.8315 mm): Footprint pot7
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(437.0315 mm, 73.0715 mm): Footprint LED8
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(405.8105 mm, 86.8295 mm): Footprint pot11
+[lib_footprint_issues]: Footprint 'LED_D3.0mm_Clear-2' not found in library 'LED_THT'.
+    Local override; warning
+    @(429.5525 mm, 73.0715 mm): Footprint LED7
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(315.8175 mm, 86.8305 mm): Footprint pot8
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(345.8025 mm, 86.8305 mm): Footprint pot9
+[lib_footprint_issues]: The current configuration does not include the footprint library 'digikey-footprints'.
+    Local override; warning
+    @(259.3375 mm, 73.0725 mm): Footprint toggle_sw_3p-1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(486.3145 mm, 86.8305 mm): Footprint pot14
+[lib_footprint_mismatch]: Footprint 'SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(142.7115 mm, 71.4335 mm): Footprint Voltage_reg1
+[lib_footprint_issues]: Footprint 'USRES1' not found in library 'RF'.
+    Local override; warning
+    @(233.3915 mm, 97.2835 mm): Footprint USR-ES1
+
+** Found 0 unconnected pads **
+
+** Found 12 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(87.9725 mm, 71.5535 mm): Footprint REF**
+    @(87.9715 mm, 96.0535 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(511.5725 mm, 96.0535 mm): Footprint REF**
+    @(87.9715 mm, 96.0535 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(299.7255 mm, 96.9815 mm): Footprint REF**
+    @(87.9715 mm, 96.0535 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(299.7255 mm, 71.9815 mm): Footprint REF**
+    @(87.9715 mm, 96.0535 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(511.5725 mm, 71.5535 mm): Footprint REF**
+    @(87.9715 mm, 96.0535 mm): Footprint REF**
+[net_conflict]: Pad net (unconnected-(74HC595-1-QH&apos;-Pad9)) doesn't match net given by schematic (unconnected-(74HC595-1-QH'-Pad9)).
+    Local override; warning
+    @(190.7665 mm, 72.0085 mm): Pad 9 on F.Cu
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(87.9715 mm, 96.0535 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(87.9725 mm, 71.5535 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(511.5725 mm, 96.0535 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(299.7255 mm, 96.9815 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(299.7255 mm, 71.9815 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(511.5725 mm, 71.5535 mm): Footprint REF**
+
+** End of Report **

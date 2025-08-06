@@ -1,0 +1,194 @@
+** Drc report for Fairchild.kicad_pcb **
+** Created on 2025-06-22T20:50:25+0300 **
+
+** Found 16 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(272.0500 mm, 194.7600 mm): Footprint SW2
+[lib_footprint_mismatch]: Footprint 'Jack_3.5mm_PJ320D_Horizontal' does not match copy in library 'Connector_Audio'.
+    Local override; warning
+    @(107.2280 mm, 205.8110 mm): Footprint AudioIn2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(503.6700 mm, 137.0800 mm): Footprint SW4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(503.6700 mm, 209.7400 mm): Footprint SW5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(272.0500 mm, 82.2700 mm): Footprint SW1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(347.4400 mm, 82.2700 mm): Footprint pot1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(426.1300 mm, 194.7600 mm): Footprint pot4
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(426.1200 mm, 82.2800 mm): Footprint pot3
+[lib_footprint_mismatch]: Footprint 'Jack_3.5mm_PJ320D_Horizontal' does not match copy in library 'Connector_Audio'.
+    Local override; warning
+    @(107.1730 mm, 194.8210 mm): Footprint AudioIn1
+[lib_footprint_mismatch]: Footprint 'Potentiometer_Alps_RK09K_Single_Vertical' does not match copy in library 'Potentiometer_THT'.
+    Local override; warning
+    @(347.4400 mm, 194.7600 mm): Footprint pot2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'digikey-footprints'.
+    Local override; warning
+    @(127.2000 mm, 82.2800 mm): Footprint toggle_sw_2p1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'SW_Rotary'.
+    Local override; warning
+    @(503.6700 mm, 72.0300 mm): Footprint SW3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Espressif'.
+    Local override; warning
+    @(361.9530 mm, 229.7220 mm): Footprint ESP32-S3-1
+[lib_footprint_issues]: Footprint 'USRES1' not found in library 'RF'.
+    Local override; warning
+    @(412.1770 mm, 238.2000 mm): Footprint USR-ES1
+[lib_footprint_mismatch]: Footprint 'SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(128.8000 mm, 152.8000 mm): Footprint Voltage_reg1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(388.9530 mm, 220.6720 mm): Rectangle on B.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 39 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(393.6110 mm, 127.2238 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(127.1900 mm, 194.7300 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(111.7400 mm, 233.2500 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(216.0429 mm, 50.0977 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(216.0429 mm, 226.8818 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(239.3700 mm, 237.1700 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(298.6000 mm, 127.2200 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(535.5000 mm, 45.3700 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(298.6000 mm, 237.1800 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(216.0429 mm, 114.3977 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(239.3700 mm, 127.2200 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(216.0429 mm, 162.5818 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(151.7429 mm, 162.5818 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(111.7300 mm, 45.1600 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(151.7429 mm, 50.0977 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(127.1900 mm, 137.0500 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(151.7429 mm, 114.3977 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(535.5000 mm, 233.2400 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(151.7429 mm, 226.8818 mm): Footprint REF**
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(393.6110 mm, 237.1725 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(393.6110 mm, 127.2238 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(127.1900 mm, 194.7300 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(111.7400 mm, 233.2500 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(216.0429 mm, 50.0977 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(216.0429 mm, 226.8818 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(239.3700 mm, 237.1700 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(298.6000 mm, 127.2200 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(535.5000 mm, 45.3700 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(298.6000 mm, 237.1800 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(216.0429 mm, 114.3977 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(239.3700 mm, 127.2200 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(216.0429 mm, 162.5818 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(151.7429 mm, 162.5818 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(111.7300 mm, 45.1600 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(151.7429 mm, 50.0977 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(127.1900 mm, 137.0500 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(151.7429 mm, 114.3977 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(535.5000 mm, 233.2400 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(151.7429 mm, 226.8818 mm): Footprint REF**
+
+** End of Report **
