@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|265270000|128050000|292586aa-198b-4557-aad0-cabcd24f8e39|6925ea89-76e4-4d4e-8d60-9783f327041e",
-          ""
-        ],
-        [
-          "copper_edge_clearance|268670000|128350000|292586aa-198b-4557-aad0-cabcd24f8e39|40a112f4-1780-44f4-aded-358bc2986ee7",
-          ""
-        ],
-        [
-          "copper_edge_clearance|271170000|128350000|292586aa-198b-4557-aad0-cabcd24f8e39|ee051ed8-dd76-400b-9f52-b478cd74720e",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -530,7 +517,7 @@
       "plot": "Fabrication/",
       "pos_files": "Fabrication/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SSL-EQ-Rack.step",
       "svg": "",
       "vrml": ""
     },
